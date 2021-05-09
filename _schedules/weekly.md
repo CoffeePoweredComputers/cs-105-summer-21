@@ -18,49 +18,67 @@ timeline:
   - '4:30 PM'
   - '5:00 PM'
   - '5:30 PM'
+  - '6:00 PM'
+  - '6:30 PM'
+  - '7:00 PM'
+  - '7:30 PM'
+  - '8:00 PM'
+  - '8:30 PM'
 schedule:
   - name: Monday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
+        start: 11:00 AM
+        end: 12:20 PM
+        location: Zoom 
       - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 7:00 PM
+        end: 7:50 PM
+        location: Zoom 
   - name: Tuesday
+    events:
+      - name: Lab 
+        section: SDA
+        start: 11:00 AM
+        end: 12:20 PM
+        location: Zoom 
+      - name: Lab 
+        section: SDB
+        start: 12:30 PM
+        end: 1:50 PM
+        location: Zoom 
+      - name: Office Hours
+        start: 7:00 PM
+        end: 7:50 PM
+        location: Zoom 
   - name: Wednesday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
+        start: 11:00 AM
+        end: 12:20 PM
+        location: Zoom 
       - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 7:00 PM
+        end: 7:50 PM
+        location: Zoom 
+      - name: Office Hours
+        start: 7:00 PM
+        end: 7:50 PM
+        location: Zoom 
   - name: Thursday
+    events:
+      - name: Quiz 
+        start: 11:00 AM
+        end: 12:20 PM
+        location: CBTF Online 
+      - name: Office Hours
+        start: 7:00 PM
+        end: 7:50 PM
+        location: Zoom 
   - name: Friday
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
       - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 7:00 PM
+        end: 7:50 PM
+        location: Zoom 
 ---

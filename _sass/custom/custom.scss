@@ -7,6 +7,53 @@
 @import 'schedule';
 @import 'staffer';
 
+//new labels
+.label-orange{
+    background-color: #E84A27;
+}
+
+.label-light-blue{
+    background-color: #0455A4;
+}
+
+.label-dark-blue{
+    background-color: #13294b;
+}
+
+//overide some stuff with the logo
+
+.site-header{
+    max-height: 100px;
+    height: 85px;
+}
+
+.site-logo{
+	background-position: center;
+	background-color: #13294B;
+	border: black;
+	border-style: solid;
+    border-width: 1px;
+	border-radius: 10px;
+}
+
+//button overides
+.btn-outline, summary {
+	color: #FF552E;
+	background: #13294B;
+	box-shadow: inset 0 0 0 1px #000;
+	transition: 0.3s ease-in-out;
+}
+
+.btn-outline:hover, summary:focus, summary:focus:hover{
+	background: #FF552E;
+	color: #13294B;
+}
+
+//overide side banners
+.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+	background-image: linear-gradient(-90deg, #13294B 0%, rgba(32, 31, 35, 0.8) 80%, rgba(32, 31, 35, 0) 100%);
+}
+
 // Overrides
 a abbr[title] {
   border-bottom: none;

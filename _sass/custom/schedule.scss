@@ -93,15 +93,19 @@
     }
 
     &.lecture {
-      background-color: $grey-dk-000;
+      background-color: #E84A27;
     }
 
-    &.section {
-      background-color: $purple-000;
+    &.quiz {
+      background-color: #003366;
+    }
+
+    &.lab {
+      background-color: #0455A4;
     }
 
     &.office-hours {
-      background-color: $blue-000;
+      background-color: #D50032;
     }
   }
 }
