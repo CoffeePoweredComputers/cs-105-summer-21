@@ -4,6 +4,8 @@ title: Week 1 - Introduction to CS 105 and Python Basics
 
 June 14
 : **Lecture 1**{: .label .label-orange}[Introduction to the Course](#)
+    : [Video](#)
+    : [Slides](#)
 : **Homework 1**{: .label .label-dark-blue}  [Intro to Python](#)
     : **Assigned**{: .label .label-green} 
 : **zyBooks Topic 1**{: .label .label-dark-blue} [Spreadsheets, Programming, and Computers](#)
@@ -16,6 +18,7 @@ June 15
 
 June 16
 : **Lecture 2**{: .label .label-orange}[Computability and the History of Computing](#)
+    : [Video](#), [Slides](#), [Instructor Notes](#)
 
 June 17
 : **Homework 1**{: .label .label-dark-blue} 

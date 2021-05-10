@@ -9,6 +9,6 @@ description: Listing of course modules and topics.
 {% for module in site.modules %}
 <details closed markdown="block">
 <summary> {{module.title}} </summary>
-{{ module }}
+{{ module}}
 </details>
 {% endfor %}
