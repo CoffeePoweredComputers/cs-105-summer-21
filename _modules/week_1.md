@@ -1,47 +1,39 @@
 ---
-title: Week 1 - Introduction to CS 105 and Python Basics
+navtitle: Week 1 - Introduction to CS 105 and Python Basics
 ---
 
 June 14
-: **Lecture 1**{: .label .label-orange}[Introduction to the Course](#)
-    : [Video](#)
-    : [Slides](#)
-: **Homework 1**{: .label .label-dark-blue}  [Intro to Python](#)
+: **Lecture 1**{: .label .label-orange}Introduction to the Course
+    : [Video](#), [Slides](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 1](#)
     : **Assigned**{: .label .label-green} 
-: **zyBooks Topic 1**{: .label .label-dark-blue} [Spreadsheets, Programming, and Computers](#)
-    : **Assigned**{: .label .label-green} 
-: **Post Reading 1**{: .label .label-dark-blue} [Variables, Types, Output, Oh My!](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
     : **Assigned**{: .label .label-green} 
 
 June 15
-: **Lab 1**{: .label .label-light-blue}[Introduction to Discord and Google Colaboratory](#)
+: **Lab 1**{: .label .label-light-blue} Introduction to Discord and Google Colaboratory
+    : [Colab Document](#)
 
 June 16
-: **Lecture 2**{: .label .label-orange}[Computability and the History of Computing](#)
+: **Lecture 2**{: .label .label-orange}Computability and the History of Computing
     : [Video](#), [Slides](#), [Instructor Notes](#)
 
 June 17
-: **Homework 1**{: .label .label-dark-blue} 
-    : **Due**{: .label .label-red}
-: **zyBooks Topic 1**{: .label .label-dark-blue} 
-    : **Due**{: .label .label-red}
-: **Post Reading 1**{: .label .label-dark-blue}
-    : **Due**{: .label .label-red}
-: **Homework 2**{: .label .label-dark-blue} [Expressions: ](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 1](#)
+    : **Due**{: .label .label-red} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
+    : **Due**{: .label .label-red} 
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 2](#), [Post Reading 1](#)
     : **Assigned**{: .label .label-green} 
-: **zyBooks Topic 2**{: .label .label-dark-blue} [Expressions: ](#)
-    : **Assigned**{: .label .label-green} 
-: **Post Reading 2**{: .label .label-dark-blue} [Expressions: ](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
     : **Assigned**{: .label .label-green} 
 
 June 18
 : [](#)
 
 June 20
-: **Homework 2**{: .label .label-dark-blue} [Expressions: ](#)
-    : **Due**{: .label .label-red}
-: **zyBooks Topic 2**{: .label .label-dark-blue} [Expressions: ](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 2](#), [Post Reading 1](#)
     : **Due**{: .label .label-red} 
-: **Post Reading 2**{: .label .label-dark-blue} [Expressions: ](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
     : **Due**{: .label .label-red} 
 

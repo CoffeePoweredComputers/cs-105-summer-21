@@ -1,5 +1,5 @@
 ---
-title: Week 6 - 
+navtitle: Week 6 - Lists and HTML
 ---
 
 July 19
@@ -12,11 +12,11 @@ July 21
 : **Lecture 12**{: .label .label-orange}[](#)
 
 July 22
-: **Homework 10**{: .label .label-dark-blue} [Lists: ](#)
+: **Homework 10**{: .label .label-dark-blue} [Lists](#)
 
 July 23
 : [](#)
 
 July 25
-: **Homework 11**{: .label .label-dark-blue} [HTML: ](#)
+: **Homework 11**{: .label .label-dark-blue} [HTML](#)
 

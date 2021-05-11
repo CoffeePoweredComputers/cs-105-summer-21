@@ -1,5 +1,5 @@
 ---
-title: Week 8 - 
+navtitle: Week 8 - Practice for Final and Closing Thoughts
 ---
 
 Aug 2
@@ -12,6 +12,6 @@ Aug 4
 : **Lecture 14**{: .label .label-orange}[Review Week](#)
 
 Aug 5
-: **Homework 14**{: .label .label-dark-blue} [Patterns: ](#)
+: **Homework 14**{: .label .label-dark-blue} [Final Homework: Attempting the Practice Final](#)
 : Good luck on the final!!
 
