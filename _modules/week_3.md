@@ -20,9 +20,9 @@ June 30
     : [Video](#), [Slides](#), [Instructor Notes](#)
 
 July 1
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 5](#), [Post Reading 5](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 5](#), [Post Reading 5](#)
     : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 5 - Conditionals](#)
     : **Due**{: .label .label-red} 
 
 July 2
