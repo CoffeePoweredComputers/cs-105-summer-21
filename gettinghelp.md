@@ -5,11 +5,11 @@ As with any new skill the acquiring the fundamentals will be the most difficult 
 Please refer to to the material below for how to get help and ask questions **early and often**.
 
 ## DRES Accommodations
-Please provide your LOA to the course instructor (David Smith; dhsmith2@illinois.edu) to ensure your course accommodations are addressed. In the email, please put **CS 105 DRES - <Name> <NetID>** in the subject of your email.
+Please provide your LOA to the course instructor (David Smith; dhsmith2@illinois.edu) to ensure your course accommodations are addressed. In the email, please put **CS 105 DRES - Name NetID** in the subject of your email.
 
 ## Frequent Excused Absences
 We have course policies that allow you to miss a few lectures and labs during the semester and for you to submit homework up to two weeks late for partial credit. 
-For students that have excused reasons to miss a significant number of the course's activities please contact the course's instructor (David Smith; dhsmith2@illinois.edu) with **CS 105 Absence - <Name> <NetID>** in the subject of your email. 
+For students that have excused reasons to miss a significant number of the course's activities please contact the course's instructor (David Smith; dhsmith2@illinois.edu) with **CS 105 Absence - Name NetID** in the subject of your email. 
 
 ## Technical Questions
 
