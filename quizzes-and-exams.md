@@ -19,8 +19,9 @@ There will be six quizzes in the course (one per week) followed by the final exa
 Each quiz is worth 5% of your final grade and the final is worth 25%. 
 
 ## Exam and Quiz Schedule (Tentative Pending CBTF Getting Back to ME)
+
 |             Date            |    Name    | Time Allowed | Grade Percentage |
-|:---------------------------:|:----------:|:------------:|:----------------:|
+| --------------------------- | ---------- | ------------ | ---------------- |
 | 6/17 11:00 AM CST           | Quiz 1     | 50 minutes   | 5%               |
 | 7/01 11:00 AM CST           | Quiz 2     | 50 minutes   | 5%               |
 | 7/08 11:00 AM CST           | Quiz 3     | 50 minutes   | 5%               |
