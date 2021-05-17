@@ -17,8 +17,8 @@ title: CS 105
 logo: 'assets/images/105-logo.svg'
 tagline: Computer Science for Non-Techincal Majors
 author: David H Smith IV 
-baseurl: '/cs-105-summer-21' # the subpath of your site, e.g. /blog
-url: 'https://pages.github-dev.cs.illinois.edu/dhsmith2' # the base hostname & protocol for your site, e.g. http://example.com
+  #baseurl: '/cs-105-summer-21' # the subpath of your site, e.g. /blog
+  #url: 'https://pages.github-dev.cs.illinois.edu/dhsmith2' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Theme settings
