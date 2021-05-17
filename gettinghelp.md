@@ -7,6 +7,11 @@ Please refer to to the material below for how to get help and ask questions **ea
 ## DRES Accommodations
 Please provide your LOA to the course instructor (David Smith; dhsmith2@illinois.edu) to ensure your course accommodations are addressed. In the email, please put **CS 105 DRES - Name NetID** in the subject of your email.
 
+Additionally, if you have accommodations identified by the Disability Resources and Educational Services (DRES) for exams, please email your Letter of Accommodation (LOA) to Carleen Sacris, sacris1@illinois.edu before you make your first exam reservation.
+For more information on how quizzes and exams are run in this course, please refer to the [quizzes and final exam](https://hamiltonfour.tech/cs-105-summer-21/quizzes-and-exams/) section fo the website.
+
+
+
 ## Frequent Excused Absences
 We have course policies that allow you to miss a few lectures and labs during the semester and for you to submit homework up to two weeks late for partial credit. 
 For students that have excused reasons to miss a significant number of the course's activities please contact the course's instructor (David Smith; dhsmith2@illinois.edu) with **CS 105 Absence - Name NetID** in the subject of your email. 
