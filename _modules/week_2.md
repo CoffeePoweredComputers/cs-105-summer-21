@@ -11,12 +11,16 @@ June 21
     : **Assigned**{: .label .label-green} 
 
 June 22
-: **Lab 2**{: .label .label-light-blue} Fantastic Data Types and Where to Find Them!
+: **Lab 2**{: .label .label-light-blue} Fantastic Data Types and How to Use Them!
     : [Colab Document](#)
 
 June 23
 : **Lecture 4**{: .label .label-orange} Functions: Learning to Reuse Code
     : [Video](#), [Slides](#), [Instructor Notes](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 4](#), [Post Reading 4](#)
+    : **Assigned**{: .label .label-green} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 4 - Functions](#)
+    : **Assigned**{: .label .label-green} 
 
 June 24
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 3](#), [Post Reading 3](#)
@@ -24,10 +28,6 @@ June 24
 : **zyBooks**{: .label .label-dark-blue} [Types in Python: Lists, Strings, Sets, and Dictionaries](#)
     : **Due**{: .label .label-red} 
 
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 4](#), [Post Reading 4](#)
-    : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 4 - Functions](#)
-    : **Assigned**{: .label .label-green} 
 
 June 25
 : [](#)

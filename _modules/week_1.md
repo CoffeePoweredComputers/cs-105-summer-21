@@ -17,16 +17,16 @@ June 15
 June 16
 : **Lecture 2**{: .label .label-orange}Computability and the History of Computing
     : [Video](#), [Slides](#), [Instructor Notes](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 2](#), [Post Reading 1](#)
+    : **Assigned**{: .label .label-green} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
+    : **Assigned**{: .label .label-green} 
 
 June 17
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 1](#)
     : **Due**{: .label .label-red} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
     : **Due**{: .label .label-red} 
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 2](#), [Post Reading 1](#)
-    : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
-    : **Assigned**{: .label .label-green} 
 
 June 18
 : [](#)

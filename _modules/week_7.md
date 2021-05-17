@@ -12,10 +12,15 @@ July 26
 
 July 27
 : **Lab 7**{: .label .label-light-blue}[](#)
+    : [Colab Document](#)
 
 July 28
 : **Lecture 14**{: .label .label-orange}[](#)
     : [Video](#), [Slides](#), [Instructor Notes](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 13](#), [Post Reading 13](#)
+    : **Assigned**{: .label .label-green} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 13 - ](#)
+    : **Assigned**{: .label .label-green} 
 
 July 29
 : **Homework 12**{: .label .label-dark-blue} [Dictionaries](#)

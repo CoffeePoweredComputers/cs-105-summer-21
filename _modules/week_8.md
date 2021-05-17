@@ -8,6 +8,7 @@ Aug 2
 
 Aug 3
 : **Lab 8**{: .label .label-light-blue}[Review Lab](#)
+    : [Colab Document](#)
 
 Aug 4
 : **Lecture 14**{: .label .label-orange}[Review Week](#)
