@@ -23,11 +23,16 @@ July 28
     : **Assigned**{: .label .label-green} 
 
 July 29
-: **Homework 12**{: .label .label-dark-blue} [Dictionaries](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 12](#), [Post Reading 12](#)
+    : **Due**{: .label .label-red} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 12 - ](#)
+    : **Due**{: .label .label-red} 
 
 July 30
 : [](#)
 
 Aug 1
-: **Homework 13**{: .label .label-dark-blue} [Review Material](#)
-
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 13](#), [Post Reading 13](#)
+    : **Due**{: .label .label-red} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 13 - ](#)
+    : **Due**{: .label .label-red} 

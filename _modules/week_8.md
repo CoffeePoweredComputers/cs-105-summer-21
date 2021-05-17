@@ -16,5 +16,7 @@ Aug 4
 
 Aug 5
 : **Homework 14**{: .label .label-dark-blue} [Final Homework: Attempting the Practice Final](#)
+    : **Due**{: .label .label-red} 
+
 : Good luck on the final!!
 
