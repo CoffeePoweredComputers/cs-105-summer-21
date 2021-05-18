@@ -3,7 +3,7 @@ navtitle: Week 1 - Introduction to CS 105 and Python Basics
 ---
 
 June 14
-: **Lecture 1**{: .label .label-orange}Introduction to the Course
+: **Lecture 1**{: .label .label-orange}Introduction to the Course, the History of Computing, and a Gentle Introduction to Programming
     : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-1/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 1](#)
     : **Assigned**{: .label .label-green} 
@@ -15,7 +15,7 @@ June 15
     : [Colab Document](#)
 
 June 16
-: **Lecture 2**{: .label .label-orange}Computability and the History of Computing
+: **Lecture 2**{: .label .label-orange} Variables and Expressions
     : [Video](#), [Slides](#), [Instructor Notes](#)
 : **PrairieLearn**{: .label .label-dark-blue} [Homework 2](#), [Post Reading 1](#)
     : **Assigned**{: .label .label-green} 
