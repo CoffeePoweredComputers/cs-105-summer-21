@@ -4,7 +4,7 @@ navtitle: Week 1 - Introduction to CS 105 and Python Basics
 
 June 14
 : **Lecture 1**{: .label .label-orange}Introduction to the Course
-    : [Video](#), [Slides]("../assets/slides/lecture-1/main.pdf")
+    : [Video](#), [Slides](assets/slides/lecture-1/main.pdf)
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 1](#)
     : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](https://learn.zybooks.com/zybook/ILLINOISCS105Summer2021)
