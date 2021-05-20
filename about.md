@@ -53,9 +53,9 @@ They will be due every Thursday and Sunday night at <b><u>11:59 PM CST</u></b>.
 | Textbook Exercises                   | 5%                                 |
 | Post-reading Activities & Homework   | 25%                                |
 | Labs                                 | 15%                                |
-| Quizzes                              | 5% each (35% total)                |
-| Final Exam                           | 20%                                |
-| Extra Credit Opportunities (2%)      | ≥90% Completion of Lecture Polls   |
+| Quizzes                              | 5% each (30% total)                |
+| Final Exam                           | 25%                                |
+| Lecture Polls                        | 3%                                 |
 
 ### Percent to Letter Grades
 
