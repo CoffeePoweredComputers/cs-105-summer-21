@@ -3,7 +3,8 @@ navtitle: Week 1 - Introduction to CS 105 and Python Basics
 ---
 
 June 14
-: **Lecture 1**{: .label .label-orange}Introduction to the Course, the History of Computing, and a Gentle Introduction to Programming
+: **Lecture 1**{: .label .label-orange}
+Introduction to the Course and the History of Computing
     : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-1/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 1](#)
     : **Assigned**{: .label .label-green} 
