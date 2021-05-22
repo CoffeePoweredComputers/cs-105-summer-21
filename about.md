@@ -46,6 +46,11 @@ Homework activities can be found the the courses's PrairieLearn.
  
 ### Lecture
 
+Lectures will meet on Zoom twice a week and be accompanied by Discord text chat rooms where you can collaborate with your peers for the included lecture questions.
+The structure of the lectures will be as follows:
+* Lecture 1 - Weekly announcements, Lecture questions on last weeks muddiest and last topic, Mini-Lecture on new topic
+* Lecture 2 - Reminders, Lecture questions on Last Topic, Mini-Lecture on new topic
+
 ### Labs
 
 Labs will meet using Discord.  
@@ -73,7 +78,9 @@ If you ever choose to temporarily attend another lab section please be sure to m
 
 ### Quizes and the Final Exam
 
-## Grading Breakdown
+All quizzes and the final exam will be given on the PrairieLearn online assessment platform and proctored by the CBTF. 
+More information on this can be found in the []({{ site.baseurl }}{{% link /quizzes-and-exams/%}}).
+
 
 ### Activity Weights
 
