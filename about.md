@@ -28,21 +28,20 @@ computer science. You will be covering:
 
 ## Tools and Resources
 
-
 ## Course Elements
 
 ### zyBooks and Post-Reading
 
 This course will have two zyBooks and post reading activities due per week.
-The zyBook activities include reading section of the textbook and completing the interactive activites along the way. 
-Post-readings activites are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you.
-Please respond to these questions thoughtfully and with as much detail as possiable as they help us construct the lectures.
+The zyBook activities include reading section of the textbook and completing the interactive activities along the way. 
+Post-readings activities are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you.
+Please respond to these questions thoughtfully and with as much detail as possible as they help us construct the lectures.
 They will be due every Thursday and Sunday night at <b><u>11:00 PM CST</u></b>.
 
 ### Homework
 
-There are two homeworks assigned every week (one after every lecture) and are due Thursday and Sunday night at <b><u>11:00 PM CST</u></b> respectivly. 
-Homework activities can be found the the courses's PrairieLearn.
+There are two homeworks assigned every week (one after every lecture) and are due Thursday and Sunday night at <b><u>11:00 PM CST</u></b> respectively. 
+Homework activities can be found on the courses's PrairieLearn.
  
 ### Lecture
 
@@ -50,6 +49,11 @@ Lectures will meet on Zoom twice a week and be accompanied by Discord text chat 
 The structure of the lectures will be as follows:
 * Lecture 1 - Weekly announcements, Lecture questions on last weeks muddiest and last topic, Mini-Lecture on new topic
 * Lecture 2 - Reminders, Lecture questions on Last Topic, Mini-Lecture on new topic
+The interactive elements of the lecture will consist of questions related to topics that have been recently covered in the course, Zoom polls on the question, followed by a discussion of the correct answer.
+For each question there will be two polls.
+The first is intended to be completed individually and the second is intended to be completed with the help of your Discord chat room.
+Additionally, the first poll is graded for participation and the second is graded for correctness.
+In aggregate these points will be used to calculate your lecture participation grade.
 
 ### Labs
 
@@ -61,26 +65,28 @@ Follow these steps to get Discord setup and running on your computers:
 1. Make an account with your Illinois outlook account: [discord.com](https://discord.com)
 2. Download the desktop applications from the website and login: [discord.com/download](https://discord.com/download)
 3. Join the lab server via the following invite link: []()
-
 Once you have logged onto the server please navigate to the #announcements channel.
 
-Once in the channel, you will see a message from the Discord bot (Marvin) asking you to "react" to its message with the letter icon.
-Simply click in the box picured below that matches with your lab section.
-Once you have done this, the bot will automatically add a role to yoru user profile giving you accessto your section's lab channel. 
+When you are in the channel, you will see a message from the Discord bot (Marvin) asking you to "react" to its message with the letter icon.
+Simply click on the emoji below the corresponds to your lab section.
+
+![Marvin's Message]{/assets/images/lab-signup.png}
+
+Once you have done this, the Marvin will automatically add a role to your user profile giving you access to your section's lab channel. 
 This should appear on the left-hand side under the category "Lab Channels" as pictured below.
 
 You can always come back to Marvin’s message and select a different lab section by:
-1. Clicking your previous lab section’s associated emoji.
+1. Clicking your previous lab section’s associated emoji to remove your reaction.
 2. Clicking on the icon associated with the lab section you wish to attend.
 This will remove access to your previous lab section and give you access to the new one you desire to attend. 
-If you ever choose to temporarily attend another lab section please be sure to make a private post on CampusWire or contact the TA in charge of the lab section you wish to attend prior to switching lab sections on Discord.
 
 
-### Quizes and the Final Exam
+## Quizzes and the Final Exam
 
-All quizzes and the final exam will be given on the PrairieLearn online assessment platform and proctored by the CBTF. 
+All quizzes and the final exam will be given on the [PrairieLearn](https://www.prairielearn.org/) online assessment platform and proctored by the CBTF. 
 More information on this can be found in the []({{ site.baseurl }}{{% link /quizzes-and-exams/%}}).
 
+## Grading
 
 ### Activity Weights
 
