@@ -70,7 +70,7 @@ Once you have logged onto the server please navigate to the #announcements chann
 When you are in the channel, you will see a message from the Discord bot (Marvin) asking you to "react" to its message with the letter icon.
 Simply click on the emoji below the corresponds to your lab section.
 
-![Marvin's Message]({{ site.baseurl  }}{{% link /assets/images/lab-signup.png %}})
+![Marvin's Message](./assets/images/david.png)
 
 Once you have done this, the Marvin will automatically add a role to your user profile giving you access to your section's lab channel. 
 This should appear on the left-hand side under the category "Lab Channels" as pictured below.
