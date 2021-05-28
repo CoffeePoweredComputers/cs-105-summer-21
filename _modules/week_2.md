@@ -26,7 +26,7 @@ June 24
 
 
 June 25
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 2](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 2 (Topics 3 & 4)](#)
   : **Due**{: .label .label-red} 
 
 June 27

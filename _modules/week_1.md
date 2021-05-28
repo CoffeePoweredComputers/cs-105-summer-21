@@ -15,21 +15,22 @@ June 15
   : [Colab Document](#)
 
 June 16
-: **Lecture 2**{: .label .label-orange} Variables and Expressions
+: **Lecture 2**{: .label .label-orange} 
   : [Video](#), [Slides](#), [Instructor Notes](#)
-: **PrairieLearn**{: .label .label-dark-blue} [](#), [Post Reading 1](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 3](#)
   : **Assigned**{: .label .label-green} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 3 - Lists, Strings, Sets and Dictionaries](https://learn.zybooks.com/zybook/ILLINOISCS105Summer2021)
 
 June 17
 : **Quiz**{: .label .label-dark-blue}  
 
 June 18
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 1](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 1 (Topics 1, 2, & 3)](#)
   : **Due**{: .label .label-red} 
 
 June 20
-: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 1](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 3](#)
   : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 3 - Lists, Strings, Sets and Dictionaries](#)
   : **Due**{: .label .label-red} 
 

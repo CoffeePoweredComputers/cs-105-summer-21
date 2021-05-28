@@ -2,7 +2,6 @@
 navtitle: Week 3 - Conditionals
 ---
 
-
 June 28 
 : **Lecture 5**{: .label .label-orange}[](#)
   : [Video](#), [Slides](#)
