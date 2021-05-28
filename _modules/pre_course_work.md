@@ -7,4 +7,3 @@ June 7
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 1](#)
     : **Assigned**{: .label .label-green} 
 
-

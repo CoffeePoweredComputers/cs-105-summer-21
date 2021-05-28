@@ -5,10 +5,6 @@ navtitle: Week 2 - Types and Functions
 June 21 
 : **Lecture 3**{: .label .label-orange} Using Lists, Strings, Sets, and Dictionaries
   : [Video](#), [Slides](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 2](#), [Post Reading 4](#)
-  : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 4](#)
-  : **Assigned**{: .label .label-green} 
 
 June 22
 : **Lab 2**{: .label .label-light-blue} Fantastic Data Types and How to Use Them!

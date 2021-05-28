@@ -21,8 +21,6 @@ June 15
 June 16
 : **Lecture 2**{: .label .label-orange} 
   : [Video](#), [Slides](#), [Instructor Notes](#)
-: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 2](#)
-  : **Due**{: .label .label-red} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 3](#)
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 3 - Lists, Strings, Sets and Dictionaries](#)
@@ -32,8 +30,17 @@ June 17
 : **Quiz**{: .label .label-dark-blue}  
 
 June 18
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 1 (Topics 1 & 2)](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 1 (Topics 1 & 2)](#), [Post Reading 2](#)
   : **Due**{: .label .label-red} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
+  : **Assigned**{: .label .label-green} 
+
+June 19
+: **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 4](#)
+  : **Assigned**{: .label .label-green} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 4](#)
+  : **Assigned**{: .label .label-green} 
+
 
 June 20
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 3](#)
