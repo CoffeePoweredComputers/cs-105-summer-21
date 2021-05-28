@@ -20,12 +20,14 @@ June 16
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 3](#)
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 3 - Lists, Strings, Sets and Dictionaries](https://learn.zybooks.com/zybook/ILLINOISCS105Summer2021)
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 2](#)
+  : **Due**{: .label .label-red} 
 
 June 17
 : **Quiz**{: .label .label-dark-blue}  
 
 June 18
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 1 (Topics 1, 2, & 3)](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 1 (Topics 1 & 2)](#)
   : **Due**{: .label .label-red} 
 
 June 20
