@@ -84,7 +84,7 @@ This will remove access to your previous lab section and give you access to the 
 ## Quizzes and the Final Exam
 
 All quizzes and the final exam will be given on the [PrairieLearn](https://www.prairielearn.org/) online assessment platform and proctored by the CBTF. 
-More information on this can be found in the []({{ site.baseurl }}{{% link /quizzes-and-exams/%}}).
+More information on this can be found in the []({{ site.baseurl }}{{% link /quizzes-and-exams/ %}}).
 
 ## Grading
 
