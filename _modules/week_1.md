@@ -7,21 +7,26 @@ June 14
   : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-1/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 2](#)
   : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](https://learn.zybooks.com/zybook/ILLINOISCS105Summer2021)
+: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
   : **Assigned**{: .label .label-green} 
 
 June 15
 : **Lab 1**{: .label .label-light-blue} Introduction to Discord and Google Colaboratory
   : [Colab Document](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 1](#)
+  : **Due**{: .label .label-red} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
+  : **Due**{: .label .label-red} 
 
 June 16
 : **Lecture 2**{: .label .label-orange} 
   : [Video](#), [Slides](#), [Instructor Notes](#)
-: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 3](#)
-  : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 3 - Lists, Strings, Sets and Dictionaries](https://learn.zybooks.com/zybook/ILLINOISCS105Summer2021)
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 2](#)
   : **Due**{: .label .label-red} 
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 3](#)
+  : **Assigned**{: .label .label-green} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 3 - Lists, Strings, Sets and Dictionaries](#)
+  : **Assigned**{: .label .label-green} 
 
 June 17
 : **Quiz**{: .label .label-dark-blue}  

@@ -34,7 +34,7 @@ June 25
 June 27
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 5](#)
   : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 4 - Functions](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 5 - Functions](#)
   : **Due**{: .label .label-red} 
 
 
