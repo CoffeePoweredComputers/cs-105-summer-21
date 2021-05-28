@@ -9,14 +9,16 @@ June 21
 June 22
 : **Lab 2**{: .label .label-light-blue} Fantastic Data Types and How to Use Them!
   : [Colab Document](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 4](#)
+  : **Due**{: .label .label-red} 
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 4](#)
+  : **Due**{: .label .label-red} 
 
 June 23
 : **Lecture 4**{: .label .label-orange} Functions: Learning to Reuse Code
   : [Video](#), [Slides](#), [Instructor Notes](#)
 : **zyBooks**{: .label .label-dark-blue} [Topic 5](#)
   : **Assigned**{: .label .label-green} 
-: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 4](#)
-  : **Due**{: .label .label-red} 
 
 June 24
 : **zyBooks**{: .label .label-dark-blue} [Types in Python: Lists, Strings, Sets, and Dictionaries](#)
