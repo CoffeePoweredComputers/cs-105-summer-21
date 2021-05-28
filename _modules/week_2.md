@@ -9,30 +9,32 @@ June 21
 June 22
 : **Lab 2**{: .label .label-light-blue} Fantastic Data Types and How to Use Them!
   : [Colab Document](#)
-: **zyBooks**{: .label .label-dark-blue} [Topic 4](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 4 - Functions](#)
   : **Due**{: .label .label-red} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 4](#)
   : **Due**{: .label .label-red} 
 
 June 23
-: **Lecture 4**{: .label .label-orange} Functions: Learning to Reuse Code
+: **Lecture 4**{: .label .label-orange} Function
   : [Video](#), [Slides](#), [Instructor Notes](#)
-: **zyBooks**{: .label .label-dark-blue} [Topic 5](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 5 - Conditionals](#)
   : **Assigned**{: .label .label-green} 
 
 June 24
-: **zyBooks**{: .label .label-dark-blue} [Types in Python: Lists, Strings, Sets, and Dictionaries](#)
-  : **Due**{: .label .label-red} 
-
+: **Quiz: Topics 1, 2 & 3**{: .label .label-dark-blue}  
 
 June 25
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 2 (Topics 3 & 4)](#)
   : **Due**{: .label .label-red} 
 
+June 26
+: **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 6](#)
+  : **Assigned**{: .label .label-green} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 6 - Loops](#)
+  : **Assigned**{: .label .label-green} 
+
 June 27
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 5](#)
   : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 5 - Functions](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 5 - Conditionals](#)
   : **Due**{: .label .label-red} 
-
-

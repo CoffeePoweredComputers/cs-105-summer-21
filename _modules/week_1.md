@@ -5,17 +5,16 @@ navtitle: Week 1 - Introduction to CS 105 and Python Basics
 June 14
 : **Lecture 1**{: .label .label-orange} Introduction to the Course and the History of Computing
   : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-1/main.pdf %})
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 2](#)
-  : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#)
   : **Assigned**{: .label .label-green} 
 
 June 15
 : **Lab 1**{: .label .label-light-blue} Introduction to Discord and Google Colaboratory
   : [Colab Document](#)
-: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 1](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 1](#), [Post Reading 2](#)
   : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#), [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
+
   : **Due**{: .label .label-red} 
 
 June 16
@@ -30,15 +29,13 @@ June 17
 : **Quiz**{: .label .label-dark-blue}  
 
 June 18
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 1 (Topics 1 & 2)](#), [Post Reading 2](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 1 (Topics 1 & 2)](#)
   : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
-  : **Assigned**{: .label .label-green} 
 
 June 19
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 4](#)
   : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 4](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 4 - Functions](#)
   : **Assigned**{: .label .label-green} 
 
 
