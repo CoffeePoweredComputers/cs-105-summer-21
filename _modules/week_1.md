@@ -6,12 +6,9 @@ June 14
 : **Lecture 1**{: .label .label-orange}
 Introduction to the Course and the History of Computing
     : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-1/main.pdf %})
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 1](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 2](#)
     : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](https://learn.zybooks.com/zybook/ILLINOISCS105Summer2021)
-    : **Assigned**{: .label .label-green} 
-: **Videos**{: .label .label-dark-blue} [V1](#), [V2](#)
-    : **Assigned**{: .label .label-green}
+: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](https://learn.zybooks.com/zybook/ILLINOISCS105Summer2021)
 
 June 15
 : **Lab 1**{: .label .label-light-blue} Introduction to Discord and Google Colaboratory
@@ -20,29 +17,19 @@ June 15
 June 16
 : **Lecture 2**{: .label .label-orange} Variables and Expressions
     : [Video](#), [Slides](#), [Instructor Notes](#)
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 2](#), [Post Reading 1](#)
+: **PrairieLearn**{: .label .label-dark-blue} [](#), [Post Reading 1](#)
     : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](https://learn.zybooks.com/zybook/ILLINOISCS105Summer2021)
-    : **Assigned**{: .label .label-green} 
-: **Videos**{: .label .label-dark-blue} [V3](#), [V4](#)
-    : **Assigned**{: .label .label-green}
 
 June 17
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 1](#), [Post Reading 1](#)
-    : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
-    : **Due**{: .label .label-red} 
-: **Videos**{: .label .label-dark-blue} [V1](#), [V2](#)
-    : **Due**{: .label .label-red}
+: **Quiz**{: .label .label-dark-blue}  
 
 June 18
-: [](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 1](#)
+    : **Due**{: .label .label-red} 
 
 June 20
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 2](#), [Post Reading 1](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 1](#)
     : **Due**{: .label .label-red} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
     : **Due**{: .label .label-red} 
-: **Videos**{: .label .label-dark-blue} [V3](#), [V4](#)
-    : **Due**{: .label .label-red}
 
