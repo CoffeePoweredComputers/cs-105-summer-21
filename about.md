@@ -32,11 +32,10 @@ computer science. You will be covering:
 
 ### zyBooks and Post-Reading
 
-This course will have two zyBooks and post reading activities due per week.
 The zyBook activities include reading section of the textbook and completing the interactive activities along the way. 
 Post-readings activities are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you.
 Please respond to these questions thoughtfully and with as much detail as possible as they help us construct the lectures.
-They will be due every Tuesday and Sunday night at <b><u>11:00 PM CST</u></b>.
+All due dates for zyBooks and post-reading activities are listed on the course [calendar]({{ site.baseurl }}{{ % link calendar/ % }})<b><u>11:00 PM CST</u></b>.
 
 #### Adding the Course in zyBooks
 
@@ -46,15 +45,13 @@ They will be due every Tuesday and Sunday night at <b><u>11:00 PM CST</u></b>.
 
 ### Homework
 
-There are two homeworks assigned every week (one after every lecture) and are due Thursday and Sunday night at <b><u>11:00 PM CST</u></b> respectively. 
+There is a single homework assigned every week that is due Friday on <b><u>11:00 PM CST</u></b>.
 Homework activities can be found on the courses's PrairieLearn.
  
 ### Lecture
 
 Lectures will meet on Zoom twice a week and be accompanied by Discord text chat rooms where you can collaborate with your peers for the included lecture questions.
-The structure of the lectures will be as follows:
-* Lecture 1 - Weekly announcements, Lecture questions on last weeks muddiest and last topic, Mini-Lecture on new topic
-* Lecture 2 - Reminders, Lecture questions on Last Topic, Mini-Lecture on new topic
+The structure of the lectures will be as follows: announcements/reminders, lecture questions muddiest points and general points from the topic due the previous Sunday, mini-lecture on upcoming topic.
 The interactive elements of the lecture will consist of questions related to topics that have been recently covered in the course, Zoom polls on the question, followed by a discussion of the correct answer.
 For each question there will be two polls.
 The first is intended to be completed individually and the second is intended to be completed with the help of your Discord chat room.
