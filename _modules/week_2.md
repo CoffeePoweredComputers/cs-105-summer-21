@@ -17,8 +17,7 @@ June 22
   : **Due**{: .label .label-red} 
 
 June 23
-: **Lecture 3**{: .label .label-orange} Types in Python: Lists, Strings, Sets, and Dictionaries
-Functions
+: **Lecture 3**{: .label .label-orange} Types in Python: Lists, Strings, Sets, and Dictionaries Functions
   : [Video](#), [Slides](#), [Instructor Notes](#)
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 4](#)
   : **Assigned**{: .label .label-green} 

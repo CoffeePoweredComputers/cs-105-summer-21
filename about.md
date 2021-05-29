@@ -36,7 +36,13 @@ This course will have two zyBooks and post reading activities due per week.
 The zyBook activities include reading section of the textbook and completing the interactive activities along the way. 
 Post-readings activities are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you.
 Please respond to these questions thoughtfully and with as much detail as possible as they help us construct the lectures.
-They will be due every Thursday and Sunday night at <b><u>11:00 PM CST</u></b>.
+They will be due every Tuesday and Sunday night at <b><u>11:00 PM CST</u></b>.
+
+#### Adding the Course in zyBooks
+
+1. Sign in or create an account at learn.zybooks.com
+2. Enter zyBook code: ILLINOISCS105Summer2021
+3. Subscribe
 
 ### Homework
 
