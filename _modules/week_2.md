@@ -3,8 +3,7 @@ navtitle: Week 2 - Types and Functions
 ---
 
 June 21 
-: **Lecture 2**{: .label .label-orange} Variables, Expressions, Identifiers, and Objects
-Using Lists, Strings, Sets, and Dictionaries
+: **Lecture 2**{: .label .label-orange} Variables, Expressions, Identifiers, and Objects 
   : [Video](#), [Slides](#)
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 2: T2 & T3](#)
   : **Assigned**{: .label .label-green} 

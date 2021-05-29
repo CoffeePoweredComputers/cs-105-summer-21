@@ -3,7 +3,7 @@ navtitle: Week 4 - Loops and Excel
 ---
 
 July 5
-: **Lecture 5**{: .label .label-orange}[](#) Conditionals
+: **Lecture 5**{: .label .label-orange} Conditionals
   : [Video](#), [Slides](#)
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 4: T5 & T6](#)
   : **Assigned**{: .label .label-green} 
@@ -17,7 +17,7 @@ July 6
   : **Due**{: .label .label-red} 
 
 July 7
-: **Lecture 6**{: .label .label-orange}[](#) Loops
+: **Lecture 6**{: .label .label-orange} Loops
   : [Video](#), [Slides](#), [Instructor Notes](#)
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 7](#)
   : **Assigned**{: .label .label-green} 

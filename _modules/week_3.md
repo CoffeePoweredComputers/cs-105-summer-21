@@ -3,7 +3,7 @@ navtitle: Week 3 - Conditionals
 ---
 
 June 28 
-: **Lecture 4**{: .label .label-orange}[](#) Functions
+: **Lecture 4**{: .label .label-orange} Functions
   : [Video](#), [Slides](#)
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 3: T4](#)
   : **Assigned**{: .label .label-green} 
@@ -17,7 +17,7 @@ June 29
   : **Assigned**{: .label .label-green} 
 
 June 30 
-: **No Lecture**{: .label .label-orange}[](#) 
+: **No Lecture**{: .label .label-orange} 
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 6](#)
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 6 - Loops](#)
