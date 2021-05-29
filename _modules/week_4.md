@@ -13,7 +13,7 @@ July 6
   : [Colab Document](#)
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 6](#)
   : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 6 - Excel and More Functions](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 6 - Loops](#)
   : **Due**{: .label .label-red} 
 
 July 7
@@ -21,7 +21,7 @@ July 7
   : [Video](#), [Slides](#), [Instructor Notes](#)
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 7](#)
   : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 7 - Excel and more Functions](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 7 - Excel and more functions](#)
   : **Assigned**{: .label .label-green} 
 
 July 8
@@ -40,5 +40,5 @@ July 10:
 July 11
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 7](#)
   : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 7 - Excel and more Functions](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 7 - Excel and more functions](#)
   : **Due**{: .label .label-red} 
