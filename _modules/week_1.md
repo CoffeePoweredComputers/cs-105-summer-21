@@ -25,7 +25,8 @@ June 16
   : **Assigned**{: .label .label-green} 
 
 June 17
-: **Quiz**{: .label .label-dark-blue}  
+: **Sample Quiz**{: .label .label-dark-blue}  
+  : This quiz does not count for points and is just used to show you what PrairieLearn quizzes will look like this semester.
 
 June 18
 : **PrairieLearn**{: .label .label-dark-blue} [Homework 1: T1](#)
