@@ -3,13 +3,13 @@ navtitle: Week 6 - Lists and HTML
 ---
 
 July 19
-: **Lecture 9**{: .label .label-orange}[](#) Intro to the Web
+: **Lecture 9**{: .label .label-orange} Intro to the Web
   : [Video](#), [Slides](#), [Instructor Notes](#)
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 6: T9 & T10](#)
   : **Assigned**{: .label .label-green} 
 
 July 20
-: **Lab 6**{: .label .label-light-blue}[](#)
+: **Lab 6**{: .label .label-light-blue}
   : [Colab Document](#)
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 10](#)
   : **Due**{: .label .label-red} 
@@ -17,7 +17,7 @@ July 20
   : **Due**{: .label .label-red} 
 
 July 21
-: **Lecture 10**{: .label .label-orange}[](#) Lists
+: **Lecture 10**{: .label .label-orange} Lists
   : [Video](#), [Slides](#), [Instructor Notes](#)
 : **PrairieLearn**{: .label .label-dark-blue}  [Topic 11 - HTML](#)
   : **Assigned**{: .label .label-green} 

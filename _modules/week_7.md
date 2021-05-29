@@ -3,13 +3,13 @@ navtitle: Week 7 - Dictionaries and Review
 ---
 
 July 26 
-: **Lecture 11**{: .label .label-orange}[](#) HTML
+: **Lecture 11**{: .label .label-orange} HTML
   : [Video](#), [Slides](#), [Instructor Notes](#)
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 7: T11 & T12](#)
   : **Assigned**{: .label .label-green} 
 
 July 27
-: **Lab 7**{: .label .label-light-blue}[](#)
+: **Lab 7**{: .label .label-light-blue}
   : [Colab Document](#)
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 12](#)
   : **Due**{: .label .label-red} 
@@ -17,7 +17,7 @@ July 27
   : **Due**{: .label .label-red} 
 
 July 28
-: **Lecture 12**{: .label .label-orange}[](#) Dictionaries & Advanced Functions
+: **Lecture 12**{: .label .label-orange} Dictionaries & Advanced Functions
   : [Video](#), [Slides](#), [Instructor Notes](#)
 
 July 29
