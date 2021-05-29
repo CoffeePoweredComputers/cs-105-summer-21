@@ -3,41 +3,41 @@ navtitle: Week 5 - Strings, Files, and Patterns
 ---
 
 July 12
-: **Lecture 9**{: .label .label-orange}[](#)
+: **Lecture 8**{: .label .label-orange}[](#) Strings and Files
   : [Video](#), [Slides](#), [Instructor Notes](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 5](#), [Post Reading 8](#)
-  : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 8 - ](#)
-  : **Assigned**{: .label .label-green} 
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 5: T8 & T9](#)
 
 July 13
 : **Lab 5**{: .label .label-light-blue}[](#)
   : [Colab Document](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 9](#)
+  : **Due**{: .label .label-red} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 9 - Intro to the Web](#)
+  : **Due**{: .label .label-red} 
 
 July 14
-: **Lecture 10**{: .label .label-orange}[](#)
+: **Lecture 9**{: .label .label-orange}[](#) Intro to the Web
   : [Video](#), [Slides](#), [Instructor Notes](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 9](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 10](#)
   : **Assigned**{: .label .label-green} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 9 - ](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 10 - Lists](#)
   : **Assigned**{: .label .label-green} 
 
 July 15
-: **Lecture 9**{: .label .label-orange}[](#)
-  : [Video](#), [Slides](#), [Instructor Notes](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 8](#)
-  : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 8 - ](#)
-  : **Due**{: .label .label-red} 
+: **Quiz: Topics 7 & 8 **{: .label .label-dark-blue}  
 
 July 16
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 5](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 5: T8 & T9](#)
   : **Due**{: .label .label-red} 
+
+July 17
+: **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 11](#)
+  : **Assigned**{: .label .label-green} 
+: **zyBooks**{: .label .label-dark-blue} [Topic 11 - HTML](#)
+  : **Assigned**{: .label .label-green} 
 
 July 18
-: **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 9](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 10](#)
   : **Due**{: .label .label-red} 
-: **zyBooks**{: .label .label-dark-blue} [Topic 9 - ](#)
+: **zyBooks**{: .label .label-dark-blue} [Topic 10 - Lists](#)
   : **Due**{: .label .label-red} 
-
-

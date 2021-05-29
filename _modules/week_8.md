@@ -3,7 +3,7 @@ navtitle: Week 8 - Practice for Final and Closing Thoughts
 ---
 
 Aug 2
-: **Lecture 13**{: .label .label-orange}[](#)
+: **Lecture 14**{: .label .label-orange}[](#)
   : [Video](#), [Slides](#), [Instructor Notes](#)
 
 Aug 3
@@ -11,7 +11,7 @@ Aug 3
   : [Colab Document](#)
 
 Aug 4
-: **Lecture 14**{: .label .label-orange}[Review Week](#)
+: **Lecture 15**{: .label .label-orange}[Review Week](#)
   : [Video](#), [Slides](#), [Instructor Notes](#)
 
 Aug 5
