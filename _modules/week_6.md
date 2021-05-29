@@ -25,7 +25,7 @@ July 21
   : **Assigned**{: .label .label-green} 
 
 July 22
-: **Quiz: Topics 9 & 10 **{: .label .label-dark-blue}  
+: **Quiz: Topics 9 & 10**{: .label .label-dark-blue}  
 
 July 23
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 6: T9 & T10](#)
