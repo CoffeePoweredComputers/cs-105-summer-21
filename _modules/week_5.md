@@ -22,6 +22,8 @@ July 14
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 9 - Intro to the Web](#)
   : **Assigned**{: .label .label-green} 
+:**Videos**
+  :[Playlist 9](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_zlpel1ct/)
 
 July 15
 : **Quiz: Topics 7 & 8**{: .label .label-dark-blue}  
@@ -35,6 +37,8 @@ July 17
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 10 - Lists](#)
   : **Assigned**{: .label .label-green} 
+:**Videos**
+  :[Playlist 10](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_mu21oxkj/)
 
 July 18
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 9](#)

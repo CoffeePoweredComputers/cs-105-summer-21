@@ -23,6 +23,8 @@ July 21
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Post Reading 11](#)
   : **Assigned**{: .label .label-green} 
+:**Videos**
+  :[Playlist 11](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_1g9ctwcb/)
 
 July 22
 : **Quiz: Topics 9 & 10**{: .label .label-dark-blue}  
@@ -36,6 +38,8 @@ July 24
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Post Reading 12](#)
   : **Assigned**{: .label .label-green} 
+:**Videos**
+  :[Playlist 12](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_hgqpl5r8/)
 
 July 25
 : **PrairieLearn**{: .label .label-dark-blue}  [Topic 11 - HTML](#)
