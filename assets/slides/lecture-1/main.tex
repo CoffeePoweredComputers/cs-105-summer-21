@@ -3,13 +3,41 @@
 \usepackage{graphicx}
 \usepackage{textpos}
 \usepackage{listings}
+\usepackage{tikz}
+\usepackage{listofitems}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{python}{
+  backgroundcolor=\color{backcolour},   
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  %breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  %numbers=left,                    
+  %numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+\lstset{style=python}
 
 \usetheme{Madrid}
 \useoutertheme{miniframes} % Alternatively: miniframes, infolines, split
 
 % Setup the university's color pallette
-\definecolor{UIUCorange}{RGB}{19, 41, 75} % UBC Blue (primary)
-\definecolor{UIUCblue}{RGB}{232, 74, 39} % UBC Grey (secondary)
+\definecolor{UIUCorange}{RGB}{19, 41, 75} 
+\definecolor{UIUCblue}{RGB}{232, 74, 39} 
 
 
 \setbeamercolor{palette primary}{bg=UIUCorange,fg=white}
@@ -63,7 +91,7 @@
   \end{itemize}
 \end{frame}
 
-\section{Overview and History of Computer Science}
+\section{CS History}
 
 %
 % Slide 2
@@ -98,7 +126,7 @@
 %
 \begin{frame}
   \frametitle{What is Programming?}
-  \begin{minipage}{0.5\textwidth}
+  \begin{minipage}{0.49\textwidth}
     \begin{itemize}
       \item Programming $\neq$ Computer Science
         \begin{itemize}
@@ -113,7 +141,11 @@
       \item \textbf{High Level Definition: } A series of instructions that a computer carries out.
     \end{itemize}
   \end{minipage}
-  \begin{minipage}{0.5\textwidth}
+  \begin{minipage}{0.49\textwidth}
+    \begin{figure}
+      \includegraphics[width=.5\textwidth]{./imgs/dijkstra.jpg}
+      \label{fig:dijkstra}
+    \end{figure}
   \end{minipage}
 \end{frame}
 
@@ -206,21 +238,22 @@
 %
 %
 %
+\section{How Programs are Constructed}
 \begin{frame}
   \frametitle{}
+  \centering
+  \Huge How Programs are Constructed
 \end{frame}
 
 %
 % Slide 10
 %
-\section{Break}
-\begin{frame}
-  \frametitle{Break time!}
-  \centering
-  \Huge 5 Minute Break
-\end{frame}
-
-\section{Input, Output, and Variables}
+%\section{Break}
+%\begin{frame}
+%  \frametitle{Break time!}
+%  \centering
+%  \Huge 5 Minute Break
+%\end{frame}
 
 %
 % Slide 9
@@ -269,6 +302,9 @@
   \end{itemize}
 \end{frame}
 
+%
+% Slide 
+%
 \begin{frame}
   \frametitle{How programs are Constructed}
   \begin{itemize}
@@ -283,8 +319,50 @@
 \end{frame}
 
 
+%
+% Linear Search
+%
+\section{Algorithms}
+\input{./linear-search.tex}
+
+%
+% Binary Search
+%
+%\input{./binary-search.tex}
+
+%
+% Programming
+%
+\section{Programming}
+\begin{frame}[fragile]
+  \small 
+  \begin{minipage}[t]{0.39\textwidth}
+      \textbf{Algorithm:} \\
+      \begin{enumerate}
+        \item Look at first item.
+        \item Check if it's the item we're looking for.
+        \item If it's the item we're looking for stop otherwise go to next item.
+        \item Repeat steps 2 \& 3 if there are still items in the list.
+      \end{enumerate}
+  \end{minipage}
+  \begin{minipage}[t]{0.59\textwidth}
+    \textbf{Code:}
+    \begin{lstlisting}[language=Python]
+    def search(list, searchitem):
+      for item in items:
+        if item == searchitem:
+          return True
+      return False
+    \end{lstlisting}
+    \hfill
+  \end{minipage}
+\end{frame}
+
+%
+% Slide
+%
 \begin{frame}
-  \frmaetitle{How Languages are Constructed}
+  \frametitle{How Languages are Constructed}
   \begin{itemize}
     \item \textbf{Syntax} \textrightarrow Rules of how programs should be constructed (think grammar).
     \item \textbf{Semantics} \textrightarrow Rules specifying what a program does.
@@ -293,43 +371,49 @@
 
 
 %
-% Slide 11
+% Slide
 %
 \begin{frame}
-  \frametitle{Data Types in Python}
-  \begin{itemize}
-    \item Two types we'll need to know now:
-      \begin{itemize}
-        \item \textbf{Strings: } A long list of characters accompanied by surrounding quotes (e.g., ``Hello, CS 105!'').
-        \item \textbf{Integers: } Whole numbers, both positive and negative.
-      \end{itemize}
-    \item You can check the type of a variable or expression with the \lstinline{type()} function.
-    %\pause
-    \item You can convert between them with the \lstinline{str()} and \lstinline{int()} functions.
-    %\pause
-    \item It's important to keep the type of your variables in mind when programming.
-    %\pause
-    \item Keeping types in mind when attempting to deduce what a program is doing is very important. 
-  \end{itemize}
-\end{frame}
-
-
-%
-% Slide 12
-%
-\begin{frame}
-  \frametitle{Poll Question: Python Values have Types}
+  \frametitle{Testing and Debugging}
   \centering
-  \Huge
-  What is the type of x if x is assigned x = 23?
+  \begin{tikzpicture}
+
+    %Sample Inputs
+    \draw[draw=black, label=Testing] (0, 0) rectangle (3, 5) node[above, xshift=-1.5cm] {Testing};
+
+    \pgfmathsetseed{\number\pdfrandomseed} 
+
+    \foreach \j in {0, 1, 2, 3, 4}{
+      \foreach \i in {0.6, 0.85, 1.1, ..., 2.6}{
+        \pgfmathtruncatemacro{\randint}{int(random(0,9))}
+        \draw[draw=black] (\i - 0.25, \j + 0.35) rectangle (\i, \j + .6) node[font=\tiny, pos=0.5] {\randint};
+      }
+    }
+
+
+    \draw[draw=black] (4, 3) rectangle (7, 2) node[pos=.5] {Algorithm};
+
+    \draw[draw=black] (8,0) rectangle (11, 5) node[above, xshift=-1.5cm] {Debugging} 
+      node[pos=.6, font=\tiny, xshift=-.5cm] {(1) Observe output}
+      node[pos=.5, font=\tiny, xshift=-.15cm] {(2) Determine errors}
+      node[pos=.4, font=\tiny] {(3) Propose fixes};
+
+    \draw[draw=black, ->] (3, 4) -- (4, 3) node[above, pos=.5] {1};
+    \draw[draw=black, ->] (7, 3) -- (8, 4) node[above, pos=.5] {2};
+    \draw[draw=black, <-] (7, 2) -- (8, 1) node[below, pos=.5] {3};
+    \draw[draw=black, <-] (3, 1) -- (4, 2) node[below, pos=.5] {4};
+
+  \end{tikzpicture}
 \end{frame}
 
 
+
 %
-% Slide 11
+% Slide 
 %
+\section{Upcoming Material}
 \begin{frame}
-  \frametitle{Input and Print}
+  \frametitle{Next Lecture Input and Print}
   \begin{itemize}
     \item \underline{\textbf{The Input Function}}: A builtin function that gets a string from the user.
       %\pause
@@ -348,28 +432,26 @@
 \end{frame}
 
 %
-% Slide 12
+% Slide 
 %
 \begin{frame}
-  \frametitle{Poll Question: Input and Print}
-  Assuming there is a variable value with the value 7, which of the following statements prints: count = 7.
-  \begin{enumerate}
-    \item \lstinline{print("count = " value)}
-    \item \lstinline{print("count = ", end="value")}
-    \item \lstinline{print("count = ", value)}
-    \item \lstinline{print("count = \$value")}
-  \end{enumerate}
+  \frametitle{Next Lecture: Data Types in Python}
+  \begin{itemize}
+    \item Two types we'll need to know now:
+      \begin{itemize}
+        \item \textbf{Strings: } A long list of characters accompanied by surrounding quotes (e.g., ``Hello, CS 105!'').
+        \item \textbf{Integers: } Whole numbers, both positive and negative.
+      \end{itemize}
+    \item You can check the type of a variable or expression with the \lstinline{type()} function.
+    %\pause
+    \item You can convert between them with the \lstinline{str()} and \lstinline{int()} functions.
+    %\pause
+    \item It's important to keep the type of your variables in mind when programming.
+    %\pause
+    \item Keeping types in mind when attempting to deduce what a program is doing is very important. 
+  \end{itemize}
 \end{frame}
 
-
-\section{Acknowledgements}
-
-
-\begin{frame}
-  \begin{enumerate}
-    \item
-  \end{enumerate}
-\end{frame}
 
 
 \end{document}
