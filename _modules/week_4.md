@@ -23,8 +23,7 @@ July 7
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 7 - Excel and more functions](#)
   : **Assigned**{: .label .label-green} 
-: **Videos**
-  :[Playlist 7](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_stndhleu/)
+: **Videos**{: .label .label-dark-blue} [Playlist 7](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_stndhleu/)
 
 July 8
 : **Quiz: Topics 6**{: .label .label-dark-blue}  
@@ -38,8 +37,7 @@ July 10:
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 8 - Strings and Files](#)
   : **Assigned**{: .label .label-green} 
-: **Videos**
-  :[Playlist 8](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_z2v092y7/)
+: **Videos**{: .label .label-dark-blue} [Playlist 8](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_z2v092y7/)
 
 July 11
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 7](#)

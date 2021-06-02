@@ -23,8 +23,7 @@ June 23
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 4 - Functions](#)
   : **Assigned**{: .label .label-green} 
-: **Videos**
-  :[Playlist 4](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_9yz5jrl8/)
+: **Videos**{: .label .label-dark-blue} [Playlist 4](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_9yz5jrl8/)
 
 June 24
 : **Quiz: Topics 1, 2 & 3**{: .label .label-dark-blue}  

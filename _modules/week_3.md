@@ -15,8 +15,7 @@ June 29
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 5 - Conditionals](#)
   : **Assigned**{: .label .label-green} 
-:**Videos**
-  :[Playlist 5](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_dzoxmyqy/)
+:**Videos**{: .label .label-dark-blue} [Playlist 5](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_dzoxmyqy/)
 
 June 30 
 : **No Lecture**{: .label .label-orange} 
@@ -24,8 +23,7 @@ June 30
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 6 - Loops](#)
   : **Assigned**{: .label .label-green} 
-: **Videos**
-  :[Playlist 6](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_wjpsczkk/)
+: **Videos**{: .label .label-dark-blue} [Playlist 6](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_wjpsczkk/)
 
 July 1
 : **Quiz: Topics 4 & 5**{: .label .label-dark-blue}  
