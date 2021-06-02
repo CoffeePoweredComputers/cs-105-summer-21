@@ -23,7 +23,7 @@ June 16
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
   : **Assigned**{: .label .label-green} 
-:**Videos**
+: **Videos**
   :[Playlist 2](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_ot1rsl46/)
 
 June 17
@@ -39,7 +39,7 @@ June 19
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 3 - Lists, Strings, Sets and Dictionaries](#)
   : **Assigned**{: .label .label-green} 
-:**Videos**
+: **Videos**
   :[Playlist 3](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_2qjie428/)
 
 

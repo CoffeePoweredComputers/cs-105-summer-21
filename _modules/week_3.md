@@ -24,7 +24,7 @@ June 30
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 6 - Loops](#)
   : **Assigned**{: .label .label-green} 
-:**Videos**
+: **Videos**
   :[Playlist 6](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_wjpsczkk/)
 
 July 1

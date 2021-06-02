@@ -23,7 +23,7 @@ July 7
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 7 - Excel and more functions](#)
   : **Assigned**{: .label .label-green} 
-:**Videos**
+: **Videos**
   :[Playlist 7](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_stndhleu/)
 
 July 8
@@ -38,7 +38,7 @@ July 10:
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 8 - Strings and Files](#)
   : **Assigned**{: .label .label-green} 
-:**Videos**
+: **Videos**
   :[Playlist 8](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_z2v092y7/)
 
 July 11

@@ -6,5 +6,5 @@ June 7
   : **Assigned**{: .label .label-green} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
   : **Assigned**{: .label .label-green} 
-:**Videos**
+: **Videos**
   :[Playlist 1](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_zno4qhz4/1_m4qspeoe)
