@@ -22,7 +22,7 @@ Each quiz is worth 5% of your final grade and the final is worth 25%.
 
 |             Date            |    Name    | Time Allowed | Grade Percentage |
 | --------------------------- | ---------- | ------------ | ---------------- |
-| 6/24 11:00 AM CST           | Quiz 1     | 50 minutes   | 5%               |
+| 6/24 11:00 AM CST           | Quiz 1     | 50 minutes   | 2%               |
 | 7/01 11:00 AM CST           | Quiz 2     | 50 minutes   | 5%               |
 | 7/08 11:00 AM CST           | Quiz 3     | 50 minutes   | 5%               |
 | 7/15 11:00 AM CST           | Quiz 4     | 50 minutes   | 5%               |
