@@ -5,7 +5,7 @@ navtitle: Week 3 - Conditionals
 June 28 
 : **Lecture 4**{: .label .label-orange} Functions
   : [Video](#), [Slides](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 3: T4](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 3](#)
   : **Assigned**{: .label .label-green} 
 
 June 29
@@ -29,7 +29,7 @@ July 1
 : **Quiz: Topics 4 & 5**{: .label .label-dark-blue}  
 
 July 2
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 3: T4](#), [Post Reading 5](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 3](#), [Post Reading 5](#)
   : **Due**{: .label .label-red} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 5 - Conditionals](#)
   : **Due**{: .label .label-red} 

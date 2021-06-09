@@ -25,12 +25,8 @@ June 16
   : **Assigned**{: .label .label-green} 
 : **Videos**{: .label .label-dark-blue} [Playlist 2](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_ot1rsl46/)
 
-June 17
-: **Sample Quiz**{: .label .label-dark-blue}  
-  : This quiz does not count for points and is just used to show you what PrairieLearn quizzes will look like this semester.
-
 June 18
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 1: T1](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 1](#)
   : **Due**{: .label .label-red} 
 
 June 19

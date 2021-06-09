@@ -5,7 +5,7 @@ navtitle: Week 7 - Dictionaries and Review
 July 26 
 : **Lecture 11**{: .label .label-orange} HTML
   : [Video](#), [Slides](#), [Instructor Notes](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 7: T11 & T12](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 7](#)
   : **Assigned**{: .label .label-green} 
 
 July 27
@@ -24,5 +24,5 @@ July 29
 : **Quiz: Topic 11 & 12**{: .label .label-dark-blue}  
 
 July 30
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 7: T11 & T12](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 7](#)
   : **Due**{: .label .label-red} 

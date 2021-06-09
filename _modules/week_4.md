@@ -5,7 +5,7 @@ navtitle: Week 4 - Loops and Excel
 July 5
 : **Lecture 5**{: .label .label-orange} Conditionals
   : [Video](#), [Slides](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 4: T5 & T6](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 4](#)
   : **Assigned**{: .label .label-green} 
 
 July 6
@@ -29,7 +29,7 @@ July 8
 : **Quiz: Topics 6**{: .label .label-dark-blue}  
 
 July 9
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 4: T5 & T6](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 4](#)
   : **Due**{: .label .label-red} 
 
 July 10:

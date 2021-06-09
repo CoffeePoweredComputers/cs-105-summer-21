@@ -84,7 +84,7 @@ All quizzes and the final exam will be given on the [PrairieLearn](https://www.p
 
 | Activity                             | Grade Percentage                   |
 | ------------------------------------ | ---------------------------------- |
-| Textbook Exercises                   | 8%                                 |
+| Textbook Exercises                   | 5%                                 |
 | Post-reading Activities & Homework   | 25%                                |
 | Labs                                 | 15%                                |
 | Quizzes                              | 27% total (1x2% and 5x5%)          |

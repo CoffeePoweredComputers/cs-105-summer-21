@@ -5,7 +5,7 @@ navtitle: Week 5 - Strings, Files, and Patterns
 July 12
 : **Lecture 7**{: .label .label-orange} Excel and more functions
   : [Video](#), [Slides](#), [Instructor Notes](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 5: T7 & T8](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 5](#)
 
 July 13
 : **Lab 5**{: .label .label-light-blue}[](#)
@@ -28,7 +28,7 @@ July 15
 : **Quiz: Topics 7 & 8**{: .label .label-dark-blue}  
 
 July 16
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 5: T7 & T8](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 5](#)
   : **Due**{: .label .label-red} 
 
 July 17

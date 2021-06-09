@@ -5,7 +5,7 @@ navtitle: Week 2 - Types and Functions
 June 21 
 : **Lecture 2**{: .label .label-orange} Variables, Expressions, Identifiers, and Objects 
   : [Video](#), [Slides](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 2: T2 & T3](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 2](#)
   : **Assigned**{: .label .label-green} 
 
 June 22
@@ -29,7 +29,7 @@ June 24
 : **Quiz: Topics 1, 2 & 3**{: .label .label-dark-blue}  
 
 June 25
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 2: T2 & T3](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 2](#)
   : **Due**{: .label .label-red} 
 
 June 27
