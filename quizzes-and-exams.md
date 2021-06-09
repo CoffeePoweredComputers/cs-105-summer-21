@@ -18,7 +18,7 @@ It is worth noting that failing to adhere to these academic integrity policies o
 There will be six quizzes in the course (one per week) followed by the final exam on the 8th and final week of the course. 
 Each quiz is worth 5% of your final grade and the final is worth 25%. 
 
-## Exam and Quiz Schedule (Tentative Pending CBTF Getting Back to ME)
+## Exam and Quiz Schedule
 
 |             Date            |    Name    | Time Allowed | Grade Percentage |
 | --------------------------- | ---------- | ------------ | ---------------- |
