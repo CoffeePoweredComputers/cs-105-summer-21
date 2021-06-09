@@ -1,5 +1,5 @@
 ---
-name: Charrlotte Yodder 
+name: Charlotte Yoder 
 role: Teaching Assistant
 ---
 
