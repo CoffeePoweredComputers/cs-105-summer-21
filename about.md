@@ -32,37 +32,29 @@ computer science. You will be covering:
 
 ### zyBooks and Post-Reading
 
-The zyBook activities include reading section of the textbook and completing the interactive activities along the way. 
-Post-readings activities are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you.
-Please respond to these questions thoughtfully and with as much detail as possible as they help us construct the lectures.
-All due dates for zyBooks and post-reading activities are listed on the course [calendar]({{ site.baseurl }}{{ % link calendar/ % }})<b><u>11:00 PM CST</u></b>.
+The zyBook activities include reading section of the textbook and completing the interactive activities along the way.  Post-readings activities are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you. Please respond to these questions thoughtfully and with as much detail as possible as they help us construct the lectures. All due dates for zyBooks and post-reading activities are listed on the course [calendar]({{ site.baseurl }}{{ % link calendar/ % }}) and are due at <b><u>11:00 PM CST</u></b> for each respective due date listed.
 
 #### Adding the Course in zyBooks
 
 1. Sign in or create an account at learn.zybooks.com
 2. Enter zyBook code: ILLINOISCS105Summer2021
-3. Subscribe
+3. Subscribe 
 
 ### Homework
 
-There is a single homework assigned every week that is due Friday on <b><u>11:00 PM CST</u></b>.
-Homework activities can be found on the courses's PrairieLearn.
+There is a single homework assigned every week that is due Friday on <b><u>11:00 PM CST</u></b>. Homework activities can be found on the courses's PrairieLearn. Late work is accepted for partial credit (70%) up to a week after the initial due date.
+
  
 ### Lecture
 
-Lectures will meet on Zoom twice a week and be accompanied by Discord text chat rooms where you can collaborate with your peers for the included lecture questions.
-The structure of the lectures will be as follows: announcements/reminders, lecture questions muddiest points and general points from the topic due the previous Sunday, mini-lecture on upcoming topic.
-The interactive elements of the lecture will consist of questions related to topics that have been recently covered in the course, Zoom polls on the question, followed by a discussion of the correct answer.
-For each question there will be two polls.
-The first is intended to be completed individually and the second is intended to be completed with the help of your Discord chat room.
-Additionally, the first poll is graded for participation and the second is graded for correctness.
-In aggregate these points will be used to calculate your lecture participation grade.
+Lectures will meet on Zoom twice a week and be accompanied by Discord text chat rooms where you can collaborate with your peers for the included lecture questions. The structure of the lectures will be as follows: announcements/reminders, lecture questions muddiest points and general points from the topic due the previous Sunday, mini-lecture on upcoming topic. The interactive elements of the lecture will consist of questions related to topics that have been recently covered in the course, Zoom polls on the question, followed by a discussion of the correct answer. For each question there will be two polls. The first is intended to be completed individually and the second is intended to be completed with the help of your Discord chat room. Additionally, the first poll is graded for participation and the second is graded for correctness. In aggregate these points will be used to calculate your lecture participation grade.
+
+The following is the link to the lecture: [https://illinois.zoom.us/j/88475720498?pwd=aFN3cHVCTlZVWnU2N2IxR2xLUUZzZz09]( https://illinois.zoom.us/j/88475720498?pwd=aFN3cHVCTlZVWnU2N2IxR2xLUUZzZz09 )
+
 
 ### Labs
 
-Labs will meet using Discord.  
-Labs will be focused on giving students practice with the course content and debugging code.  Labs are designed to be completed by a group of students. 
-Lab attendance and completion will contribute to your grade - however, lab completion is largely based on effort put in and ability to demonstrate to a course TA or CA the work that has been done on the lab rather than a set "correctness" standard.
+Labs will meet using Discord and be focused on giving students practice with the course content and debugging code.  They are designed to be completed by a group of students rather than individually so you are encouraged to work with your peers. Though both attendance and completion will contribute to your grade lab completion is largely based on effort put in and ability to demonstrate to a course TA or CA the work that has been done on the lab rather than a set "correctness" standard.
 
 Follow these steps to get Discord setup and running on your computers:
 1. Make an account with your Illinois outlook account: [discord.com](https://discord.com)
@@ -70,13 +62,11 @@ Follow these steps to get Discord setup and running on your computers:
 3. Join the lab server via the following invite link: []()
 Once you have logged onto the server please navigate to the #announcements channel.
 
-When you are in the channel, you will see a message from the Discord bot (Marvin) asking you to "react" to its message with the letter icon.
-Simply click on the emoji below the corresponds to your lab section.
+When you are in the channel, you will see a message from the Discord bot (Marvin) asking you to "react" to its message with the letter icon. Simply click on the emoji below the corresponds to your lab section.
 
 ![Marvin's Message](./assets/images/lab-signup.png)
 
-Once you have done this, the Marvin will automatically add a role to your user profile giving you access to your section's lab channel. 
-This should appear on the left-hand side under the category "Lab Channels" as pictured below.
+Once you have done this, the Marvin will automatically add a role to your user profile giving you access to your section's lab channel. This should appear on the left-hand side under the category "Lab Channels" as pictured below.
 
 You can always come back to Marvin’s message and select a different lab section by:
 1. Clicking your previous lab section’s associated emoji to remove your reaction.
@@ -86,8 +76,7 @@ This will remove access to your previous lab section and give you access to the 
 
 ## Quizzes and the Final Exam
 
-All quizzes and the final exam will be given on the [PrairieLearn](https://www.prairielearn.org/) online assessment platform and proctored by the CBTF. 
-More information on this can be found in the []({{ site.baseurl }}{{% link /quizzes-and-exams/ %}}).
+All quizzes and the final exam will be given on the [PrairieLearn](https://www.prairielearn.org/) online assessment platform and proctored by the CBTF. More information on this can be found in the []({{ site.baseurl }}{{% link /quizzes-and-exams/ %}}).
 
 ## Grading
 
@@ -95,10 +84,10 @@ More information on this can be found in the []({{ site.baseurl }}{{% link /quiz
 
 | Activity                             | Grade Percentage                   |
 | ------------------------------------ | ---------------------------------- |
-| Textbook Exercises                   | 5%                                 |
+| Textbook Exercises                   | 8%                                 |
 | Post-reading Activities & Homework   | 25%                                |
 | Labs                                 | 15%                                |
-| Quizzes                              | 5% each (30% total)                |
+| Quizzes                              | 27% total (1x2% and 5x5%)          |
 | Final Exam                           | 25%                                |
 | Lecture Polls                        | 3%                                 |
 
