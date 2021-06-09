@@ -34,23 +34,23 @@ schedule:
       - name: Office Hours
         start: 7:00 PM
         end: 7:50 PM
-        location: Zoom 
+        location: Discord
   - name: Tuesday
     events:
       - name: Lab 
-        section: SDA
+        section: SA
         start: 11:00 AM
         end: 12:20 PM
-        location: Zoom 
+        location: Discord 
       - name: Lab 
-        section: SDB
+        section: SB
         start: 12:30 PM
         end: 1:50 PM
-        location: Zoom 
+        location: Discord 
       - name: Office Hours
         start: 7:00 PM
         end: 7:50 PM
-        location: Zoom 
+        location: Discord
   - name: Wednesday
     events:
       - name: Lecture
@@ -58,27 +58,34 @@ schedule:
         end: 12:20 PM
         location: Zoom 
       - name: Office Hours
+        section: s
         start: 7:00 PM
         end: 7:50 PM
         location: Zoom 
       - name: Office Hours
         start: 7:00 PM
         end: 7:50 PM
-        location: Zoom 
+        location: Discord
   - name: Thursday
     events:
       - name: Quiz 
+        section: SA
         start: 11:00 AM
         end: 12:20 PM
+        location: CBTF Online 
+      - name: Quiz 
+        section: SB
+        start: 12:30 PM
+        end: 1:50 PM
         location: CBTF Online 
       - name: Office Hours
         start: 7:00 PM
         end: 7:50 PM
-        location: Zoom 
+        location: Discord
   - name: Friday
     events:
       - name: Office Hours
         start: 7:00 PM
         end: 7:50 PM
-        location: Zoom 
+        location: Discord
 ---
