@@ -18,4 +18,4 @@ This course will be all online and with synchronous lectures, labs, and  In prep
     * Search for "CS 105"
     * Add the instance of CS 105 for Summer 2021
 
-I encourage you all to take some time to look over the [course website](https://pages.github-dev.cs.illinois.edu/dhsmith2/cs-105-summer-2021/) to get a sense of what the course will be covering. However please do note that nothing on the site is considered finalized until Monday. We will be going over the course structure and expectation more in-depth during the first lecture. For now, simply focus on completing the first reading activity, which is already on zyBooks and is due the second day of class.
+I encourage you all to take some time to look over the course website to get a sense of what we will be covering. However please do note that nothing on the site is considered finalized until Monday. We will be going over the course structure and expectation more in-depth during the first lecture. For now, simply focus on completing the first reading activity, which is already on zyBooks and is due the second day of class.
