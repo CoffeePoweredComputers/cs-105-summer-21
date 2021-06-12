@@ -40,6 +40,6 @@ June 19
 June 20
 : **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
   : **Due**{: .label .label-red} 
-: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 3](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 2](#)
   : **Due**{: .label .label-red} 
 
