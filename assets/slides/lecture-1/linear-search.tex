@@ -18,7 +18,9 @@
   \end{minipage}
   \hfill
   \begin{minipage}{0.39\textwidth}
-    \centering
+    \textbf{Searching Number:} 4\\
+    \vspace{0.1cm}\\
+    \textbf{Input List:}\\
     \begin{tikzpicture}
       \draw[draw=black] (0,0) rectangle (.5,.5) node[pos=0.5] {1};
       \draw[draw=black] (.5,0) rectangle (1,.5) node[pos=0.5] {2};
@@ -36,10 +38,11 @@
 \begin{frame}
   \centering
   \begin{tikzpicture}
-    \pgfmathtruncatemacro{\N}{8}
+    \pgfmathtruncatemacro{\N}{4}
     \pgfmathtruncatemacro{\asize}{9}
     \foreach \n in {1,2,...,\N}{
       \onslide<\n>{
+
         \foreach \i in {1,2,3,...,\asize}{
           \ifnum\i=\n
             \draw[draw=black] (\i-1,0) rectangle (\i,1) node[pos=0.5] {\i};
@@ -47,6 +50,12 @@
             \draw[draw=white, fill=black] (\i-1,0) rectangle (\i,1);
           \fi
         }
+
+        \ifnum\n=\N
+          \node[draw] at (4.5, -1) {Is \n\ equal to \N? Yes, so we stop searching.};
+        \else
+          \node[draw] at (4.75, -1) {Is \n\ equal to \N? No, so we check the next one.};
+        \fi
       }
     }
   \end{tikzpicture}

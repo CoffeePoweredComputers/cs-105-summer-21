@@ -134,9 +134,6 @@
         \end{itemize}
         %\pause
       \item ``Computer Science is no more about computers than astronomy is about telescopes'' - Edsger W. Dijkstra
-        \begin{itemize}
-          \item A bit of an overstatement but still a useful thing to keep in mind.
-        \end{itemize}
         %\pause
       \item \textbf{High Level Definition: } A series of instructions that a computer carries out.
     \end{itemize}
@@ -150,10 +147,12 @@
 \end{frame}
 
 %
-% Slide 4
+%
 %
 \begin{frame}
-  \frametitle{Where did this all come from?}
+  \frametitle{}
+  \centering
+  \Huge The Journey to a General Purpose Computer
 \end{frame}
 
 %
@@ -161,9 +160,24 @@
 %
 \begin{frame}
   \frametitle{Early ``Computers''}
-  \begin{minipage}{0.59\textwidth}
+  \begin{minipage}{0.49\textwidth}
+    \begin{figure}
+      \includegraphics[width=0.5\textwidth]{./imgs/targeting.jpg}
+      \label{fig:target}
+      \caption{Fire Control System}
+    \end{figure}
+    \begin{figure}
+      \includegraphics[width=0.5\textwidth]{./imgs/oomechanism.jpg}
+      \label{fig:oomechanism}
+      \caption{Antikythera Mechanism}
+    \end{figure}
   \end{minipage}
-  \begin{minipage}{0.39\textwidth}
+  \begin{minipage}{0.49\textwidth}
+    \begin{figure}
+      \includegraphics[width=0.5\textwidth]{./imgs/tide.jpg}
+      \label{fig:tide}
+      \caption{Tide Predicting Machine}
+    \end{figure}
   \end{minipage}
 \end{frame}
 
@@ -171,15 +185,25 @@
 % Slide 6
 %
 \begin{frame}
-  \frametitle{The Difference Engine}
+  \frametitle{The Difference \& Analytical Engines}
   \begin{minipage}{0.59\textwidth}
+    \begin{enumerate}
+      \item \textbf{Charles Babbage: } Create the Difference Engine and create plans for the Analytical Engine.
+      \item \textbf{Ada Lovelace: } The first computer programmer who worked with Babbage on the Analytical Engine.
+      \item \textbf{Difference Engine: } A large mechanical calculator capable of performing large computations.
+      \item \textbf{Analytical Engine: } The first model of a general purpose mechanical computer.
+    \end{enumerate}
+    \hfill
   \end{minipage}
   \begin{minipage}{0.39\textwidth}
+    \centering
     \begin{figure}
+      \includegraphics[width=.80\textwidth]{./imgs/differenceengine.jpg}
       \label{fig:analyticalengine.png}
     \end{figure}
     \begin{figure}
-      \label{fig:adababage.png}
+      \includegraphics[width=.87\textwidth]{imgs/adababbage.png}
+      \label{fig:adababbage.png}
     \end{figure}
   \end{minipage}
 \end{frame}
@@ -188,12 +212,9 @@
 % Slide 7
 %
 \begin{frame}
-  \frametitle{Alan Turing, Alonzo Church, and Turing Machines}
+  \frametitle{Turing Machines}
   \begin{minipage}{0.59\textwidth}
-    \begin{enumerate}
-      \item \textbf{Church-Turing Thesis} - Any effective calculation can be performed by a mechanical computer (e.g., a Turing Machine).
-      \item \textbf{Turing Machines} - An abstract, mathematical model of a machine that moves up and down a strip of paper, one step at a time, and performs operations based on a set of rules (Figure \ref{fig:turingmachine}).
-    \end{enumerate}
+      \textbf{Turing Machines} - An abstract, mathematical model of a machine that moves up and down a strip of paper, one step at a time, and performs operations based on a set of rules (Figure \ref{fig:turingmachine}).
   \end{minipage}
   \begin{minipage}{0.39\textwidth}
     \begin{figure}
@@ -391,7 +412,7 @@
     }
 
 
-    \draw[draw=black] (4, 3) rectangle (7, 2) node[pos=.5] {Algorithm};
+    \draw[draw=black] (4, 3) rectangle (7, 2) node[pos=.5] {\small Algorithm/Program};
 
     \draw[draw=black] (8,0) rectangle (11, 5) node[above, xshift=-1.5cm] {Debugging} 
       node[pos=.6, font=\tiny, xshift=-.5cm] {(1) Observe output}
