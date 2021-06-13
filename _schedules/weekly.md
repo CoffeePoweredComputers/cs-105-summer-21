@@ -39,7 +39,7 @@ schedule:
       - name: Office Hours
         section: David
         start: 7:00 PM
-        end: 7:50 PM
+        end: 8:00 PM
         location: Discord
   - name: Tuesday
     events:
@@ -56,7 +56,7 @@ schedule:
       - name: Office Hours
         section: David
         start: 7:00 PM
-        end: 7:50 PM
+        end: 8:00 PM
         location: Discord
   - name: Wednesday
     events:
@@ -67,7 +67,7 @@ schedule:
       - name: Office Hours
         section: David
         start: 7:00 PM
-        end: 7:50 PM
+        end: 8:00 PM
         location: Discord
   - name: Thursday
     events:
@@ -83,7 +83,7 @@ schedule:
         location: CBTF Online 
       - name: Office Hours
         start: 7:00 PM
-        end: 7:50 PM
+        end: 8:00 PM
         location: Discord
   - name: Friday
     events:
@@ -95,6 +95,6 @@ schedule:
       - name: Office Hours
         section: David
         start: 7:00 PM
-        end: 7:50 PM
+        end: 8:00 PM
         location: Discord
 ---
