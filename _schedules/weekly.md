@@ -86,7 +86,7 @@ schedule:
         start: 1:00 PM
         end: 1:50 PM
         location: CBTF Online 
-      - name: Office Hours - David
+      - name: Office Hours
         start: 7:00 PM
         end: 7:50 PM
         location: Discord
