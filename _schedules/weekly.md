@@ -31,7 +31,11 @@ schedule:
         start: 11:00 AM
         end: 12:20 PM
         location: Zoom 
-      - name: Office Hours
+      - name: Office Hours - 
+        start: 2:00 PM
+        end: 4:00 PM
+        location: Discord
+      - name: Office Hours - David
         start: 7:00 PM
         end: 7:50 PM
         location: Discord
@@ -47,7 +51,7 @@ schedule:
         start: 12:30 PM
         end: 1:50 PM
         location: Discord 
-      - name: Office Hours
+      - name: Office Hours - David
         start: 7:00 PM
         end: 7:50 PM
         location: Discord
@@ -62,7 +66,7 @@ schedule:
         start: 7:00 PM
         end: 7:50 PM
         location: Zoom 
-      - name: Office Hours
+      - name: Office Hours - David
         start: 7:00 PM
         end: 7:50 PM
         location: Discord
@@ -71,20 +75,24 @@ schedule:
       - name: Quiz 
         section: SA
         start: 11:00 AM
-        end: 12:20 PM
+        end: 11:50 PM
         location: CBTF Online 
       - name: Quiz 
         section: SB
-        start: 12:30 PM
+        start: 1:00 PM
         end: 1:50 PM
         location: CBTF Online 
-      - name: Office Hours
+      - name: Office Hours - David
         start: 7:00 PM
         end: 7:50 PM
         location: Discord
   - name: Friday
     events:
-      - name: Office Hours
+      - name: Office Hours - Charlotte
+        start: 12:30 PM
+        end: 2:00 PM
+        location: Discord
+      - name: Office Hours - David
         start: 7:00 PM
         end: 7:50 PM
         location: Discord
