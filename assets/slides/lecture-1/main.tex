@@ -85,7 +85,7 @@
         \item Trace through and predict it's output.
         \item Describe, in plain English, what it does.
       \end{itemize}
-    \item Write a small python program some, or all, of the fundamentals you will learn in the course.
+    \item Write a small python program some using the fundamentals you will learn in this course.
     \item Beginner and intermediate spreadsheet operations.
     \item Beginner level understanding of how the internet works and how to write basic HTML documents.
   \end{itemize}
@@ -102,7 +102,7 @@
     \item CS is concerned with understanding:
       \begin{itemize}
         %\pause
-      \item What is computable
+      \item Historically concerned with investigating what is computable.
         %\pause
       \item How to compute it in one or more of the following in mind:
         \begin{itemize}
@@ -385,8 +385,9 @@
 \begin{frame}
   \frametitle{How Languages are Constructed}
   \begin{itemize}
-    \item \textbf{Syntax} \textrightarrow Rules of how programs should be constructed (think grammar).
-    \item \textbf{Semantics} \textrightarrow Rules specifying what a program does.
+    \item \textbf{Syntax} \textrightarrow The rules specifying the structure and symbols that are allowable within the programming language.
+    \item \textbf{Semantics} \textrightarrow Rules defining the behaviour of symbols or combinations of symbols.
+    \item Something might be syntactically valid but not semantically valid but never the other way around.
   \end{itemize}
 \end{frame}
 
@@ -398,26 +399,28 @@
   \frametitle{Testing and Debugging}
   \centering
   \begin{tikzpicture}
-
     %Sample Inputs
     \draw[draw=black, label=Testing] (0, 0) rectangle (3, 5) node[above, xshift=-1.5cm] {Testing};
 
     \pgfmathsetseed{\number\pdfrandomseed} 
 
     \foreach \j in {0, 1, 2, 3, 4}{
-      \foreach \i in {0.6, 0.85, 1.1, ..., 2.6}{
+      \foreach \i in {0.55, 0.8, 1.05, ..., 2.55}{
         \pgfmathtruncatemacro{\randint}{int(random(0,9))}
         \draw[draw=black] (\i - 0.25, \j + 0.35) rectangle (\i, \j + .6) node[font=\tiny, pos=0.5] {\randint};
       }
+      \pgfmathtruncatemacro{\randint}{int(random(5,12))}
+      \node[font=\tiny] at (2.75, \j + .475) {\randint};
     }
 
 
     \draw[draw=black] (4, 3) rectangle (7, 2) node[pos=.5] {\small Algorithm/Program};
 
-    \draw[draw=black] (8,0) rectangle (11, 5) node[above, xshift=-1.5cm] {Debugging} 
+    \draw[draw=black] (8,0) rectangle (11, 5) node[above, xshift=-1.5cm] {Debugging } 
       node[pos=.6, font=\tiny, xshift=-.5cm] {(1) Observe output}
       node[pos=.5, font=\tiny, xshift=-.15cm] {(2) Determine errors}
       node[pos=.4, font=\tiny] {(3) Propose fixes};
+    \node[] at (10.75, 5.3) {\includegraphics[width=.05\textwidth]{imgs/rubberduck.png}};
 
     \draw[draw=black, ->] (3, 4) -- (4, 3) node[above, pos=.5] {1};
     \draw[draw=black, ->] (7, 3) -- (8, 4) node[above, pos=.5] {2};

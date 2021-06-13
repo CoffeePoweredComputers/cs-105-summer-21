@@ -32,7 +32,7 @@ computer science. You will be covering:
 
 ### zyBooks and Post-Reading
 
-The zyBook activities include reading section of the textbook and completing the interactive activities along the way.  Post-readings activities are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you. Please respond to these questions thoughtfully and with as much detail as possible as they help us construct the lectures. All due dates for zyBooks and post-reading activities are listed on the course [calendar]({{ site.baseurl }}{{ % link calendar/ % }}) and are due at <b><u>11:00 PM CST</u></b> for each respective due date listed.
+The zyBook activities include reading section of the textbook and completing the interactive activities along the way.  Post-readings activities are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you. Please respond to these questions thoughtfully and with as much detail as possible as they help us construct the lectures. All due dates for zyBooks and post-reading activities are listed on the course [calendar](https://hamiltonfour.tech/cs-105-summer-21/calendar/) and are due at <b><u>11:00 PM CST</u></b> for each respective due date listed.
 
 #### Adding the Course in zyBooks
 
@@ -59,8 +59,7 @@ Labs will meet using Discord and be focused on giving students practice with the
 Follow these steps to get Discord setup and running on your computers:
 1. Make an account with your Illinois outlook account: [discord.com](https://discord.com)
 2. Download the desktop applications from the website and login: [discord.com/download](https://discord.com/download)
-3. Join the lab server via the following invite link: []()
-Once you have logged onto the server please navigate to the #announcements channel.
+3. Join the lab server via the following invite link that was wsent via email last week or the link on the course announcments page. The link will also be given out during the first lecture when we are going over lab sections.
 
 When you are in the channel, you will see a message from the Discord bot (Marvin) asking you to "react" to its message with the letter icon. Simply click on the emoji below the corresponds to your lab section.
 

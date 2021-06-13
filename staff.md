@@ -19,9 +19,3 @@ description: A listing of all the course staff members.
 {{ ta }}
 {% endfor %}
 
-## Course Assistants
-
-{% assign cas = site.staffers | where: 'role', 'Course Assistant' %}
-{% for ca in cas %}
-{{ ca }}
-{% endfor %}
