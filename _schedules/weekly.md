@@ -65,11 +65,6 @@ schedule:
         end: 12:20 PM
         location: Zoom 
       - name: Office Hours
-        section: s
-        start: 7:00 PM
-        end: 7:50 PM
-        location: Zoom 
-      - name: Office Hours
         section: David
         start: 7:00 PM
         end: 7:50 PM
