@@ -15,7 +15,7 @@ June 29
   : **Assigned**{: .label .label-green} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 5](#)
   : **Assigned**{: .label .label-green} 
-:**Videos**{: .label .label-dark-blue} [Playlist 5](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_dzoxmyqy/)
+: **Videos**{: .label .label-dark-blue} [Playlist 5](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_dzoxmyqy/)
 
 June 30 
 : **No Lecture**{: .label .label-orange} 
