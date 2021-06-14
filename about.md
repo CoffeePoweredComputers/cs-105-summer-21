@@ -32,7 +32,9 @@ computer science. You will be covering:
 
 ### zyBooks and Post-Reading
 
-The zyBook activities include reading section of the textbook and completing the interactive activities along the way.  Post-readings activities are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you. Please respond to these questions thoughtfully and with as much detail as possible as they help us construct the lectures. All due dates for zyBooks and post-reading activities are listed on the course [calendar](https://hamiltonfour.tech/cs-105-summer-21/calendar/) and are due at <b><u>11:00 PM CST</u></b> for each respective due date listed.
+The zyBook activities include reading section of the textbook and completing the interactive activities along the way. In zyBooks there are two types of problems: challenge and participation.  <b>For this course you only required to complete the participation activities to receive credit. However, it is still strongly recommended that you attempt the challenge problems as they are good preparation for the quizzes and homework.</b> 
+
+Post-readings activities are on PrairieLearn and are our attempt to solicit information on what aspect of the readings were confusing and which topics were of interest to you. Please respond to these questions thoughtfully and with as much detail as possible as they help us construct the lectures. All due dates for zyBooks and post-reading activities are listed on the course [calendar](https://hamiltonfour.tech/cs-105-summer-21/calendar/) and are due at <b><u>11:00 PM CST</u></b> for each respective due date listed.
 
 #### Adding the Course in zyBooks
 
