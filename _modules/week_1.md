@@ -4,7 +4,7 @@ navtitle: Week 1 - Introduction to CS 105 and Python Basics
 
 June 14
 : **Lecture 0**{: .label .label-orange} Introduction to the Course and the History of Computing
-  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-1/main.pdf %})
+  : [Video](https://mediaspace.illinois.edu/media/t/1_33sxm9ti), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-1/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 1: Topic 1](#)
   : **Assigned**{: .label .label-green} 
 
