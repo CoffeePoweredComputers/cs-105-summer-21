@@ -10,7 +10,7 @@ June 14
 
 June 15
 : **Lab 1**{: .label .label-light-blue} Introduction to Discord and Google Colaboratory
-  : [Colab Document](#)
+  : [Colab Document](https://drive.google.com/file/d/1HGHYTDqBmuXJ7ZUvvlRBVA-AZHr42saT/view?usp=sharing)
 : **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
   : **Due**{: .label .label-red} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 1](#)
