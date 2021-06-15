@@ -72,7 +72,7 @@ schedule:
       - name: Office Hours
         section: Charlotte
         start: 12:30 PM
-        end: 14:00 PM
+        end: 2:00 PM
         location: Discord
   - name: Thursday
     events:
