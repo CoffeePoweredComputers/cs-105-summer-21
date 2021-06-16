@@ -18,7 +18,7 @@ June 15
 
 June 16
 : **Lecture 1**{: .label .label-orange} Spreadsheets, Programming, and Computers
-  : [Video](#), [Slides](#), [Instructor Notes](#)
+  : [Video](#), [Slides](./assets/slides/lecture-2/main.pdf)
 : **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
   : **Assigned**{: .label .label-green} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 2](#)
