@@ -11,10 +11,6 @@ June 14
 June 15
 : **Lab 1**{: .label .label-light-blue} Introduction to Discord and Google Colaboratory
   : [Colab Document](https://drive.google.com/file/d/1HGHYTDqBmuXJ7ZUvvlRBVA-AZHr42saT/view?usp=sharing)
-: **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
-  : **Due**{: .label .label-red} 
-: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 1](#)
-  : **Due**{: .label .label-red} 
 
 June 16
 : **Lecture 1**{: .label .label-orange} Spreadsheets, Programming, and Computers
@@ -38,6 +34,10 @@ June 19
 
 
 June 20
+: **zyBooks**{: .label .label-dark-blue} [Topic 1 - Spreadsheets, Programming, and Computers](#)
+  : **Due: Extension**{: .label .label-red} 
+: **PrairieLearn**{: .label .label-dark-blue} [Post Reading 1](#)
+  : **Due: Extension**{: .label .label-red} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 2 - Variables, Expressions, Identifiers, and Objects](#)
   : **Due**{: .label .label-red} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 2](#)
