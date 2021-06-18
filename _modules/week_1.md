@@ -26,6 +26,7 @@ June 18
   : **Due**{: .label .label-red} 
 
 June 19
+: Happy Juneteenth! ![Juneteenth Flag](https://emojis.slackmojis.com/emojis/images/1592576525/9413/juneteenth-flag.png?1592576525){: class="img-responsive" : width="25" : .center-image} 
 : **zyBooks**{: .label .label-dark-blue} [Topic 3 - Lists, Strings, Sets and Dictionaries](#)
   : **Assigned**{: .label .label-green} 
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 3](#)
