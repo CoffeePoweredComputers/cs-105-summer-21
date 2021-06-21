@@ -4,7 +4,7 @@ navtitle: Week 2 - Types and Functions
 
 June 21 
 : **Lecture 2**{: .label .label-orange} Variables, Expressions, Identifiers, and Objects 
-  : [Video](#), [Slides](#)
+  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-3/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 2: Topics 2 & 3](#)
   : **Assigned**{: .label .label-green} 
 
