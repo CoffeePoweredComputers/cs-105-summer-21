@@ -9,7 +9,7 @@ June 21
   : **Assigned**{: .label .label-green} 
 
 June 22
-: **Lab 2**{: .label .label-light-blue} Fantastic Data Types and How to Use Them!
+: **Lab 2**{: .label .label-light-blue} Excel lab
   : [Lab Excel Document](https://drive.google.com/file/d/1CBl7rstmUx__V78jdy9csYnKBr4eToBo/view?usp=sharing)
 : **zyBooks**{: .label .label-dark-blue} [Topic 3 - Lists, Strings, Sets and Dictionaries](#)
   : **Due**{: .label .label-red} 
