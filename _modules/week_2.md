@@ -4,7 +4,7 @@ navtitle: Week 2 - Types and Functions
 
 June 21 
 : **Lecture 2**{: .label .label-orange} Variables, Expressions, Identifiers, and Objects 
-  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-3/main.pdf %})
+  : [Video](https://mediaspace.illinois.edu/media/t/1_3vlr1q3g), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-3/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 2: Topics 2 & 3](#)
   : **Assigned**{: .label .label-green} 
 
@@ -18,7 +18,7 @@ June 22
 
 June 23
 : **Lecture 3**{: .label .label-orange} Types in Python: Lists, Strings, Sets, and Dictionaries Functions
-  : [Video](#), [Slides](#), [Instructor Notes](#)
+  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-4/main.pdf %}#)
 : **zyBooks**{: .label .label-dark-blue} [Topic 4 - Functions](#)
   : **Assigned**{: .label .label-green} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 4](#)
