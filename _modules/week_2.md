@@ -18,7 +18,7 @@ June 22
 
 June 23
 : **Lecture 3**{: .label .label-orange} Types in Python: Lists, Strings, Sets, and Dictionaries Functions
-  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-4/main.pdf %}#)
+  : [Video](https://mediaspace.illinois.edu/media/t/1_t9kas84i), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-4/main.pdf %}#)
 : **zyBooks**{: .label .label-dark-blue} [Topic 4 - Functions](#)
   : **Assigned**{: .label .label-green} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 4](#)
