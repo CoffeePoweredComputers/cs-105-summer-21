@@ -25,7 +25,7 @@ July 14
 : **Videos**{: .label .label-dark-blue} [Playlist 9](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_zlpel1ct/)
 
 July 15
-: **Quiz: Topic 6**{: .label .label-dark-blue}  
+: **Quiz: Topic 5 & 6**{: .label .label-dark-blue}  
 
 July 16
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 5: Topics 7 & 8](#)

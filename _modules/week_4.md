@@ -26,10 +26,10 @@ July 7
 : **Videos**{: .label .label-dark-blue} [Playlist 7](https://mediaspace.illinois.edu/playlist/dedicated/214548063/1_stndhleu/)
 
 July 8
-: **Quiz: Topics 4 & 5**{: .label .label-dark-blue}  
+: **Quiz: Topics 4**{: .label .label-dark-blue}  
 
 July 9
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 4: Topic 6](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 4: Topic 5 & 6](#)
   : **Due**{: .label .label-red} 
 
 July 10:

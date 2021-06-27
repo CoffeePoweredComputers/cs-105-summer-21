@@ -31,7 +31,7 @@ July 1
 July 2
 : **zyBooks**{: .label .label-dark-blue} [Topic 5 - Conditionals](#)
   : **Due**{: .label .label-red} 
-: **PrairieLearn**{: .label .label-dark-blue} [Homework 3: Topics 4 & 5](#), [Post Reading 5](#)
+: **PrairieLearn**{: .label .label-dark-blue} [Homework 3: Topics 4](#), [Post Reading 5](#)
   : **Due**{: .label .label-red} 
 
 July 3 & 4 
