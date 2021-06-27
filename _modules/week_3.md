@@ -5,7 +5,7 @@ navtitle: Week 3 - Conditionals
 June 28 
 : **Lecture 4**{: .label .label-orange} Functions
   : [Video](#), [Slides](#)
-: **PrairieLearn**{: .label .label-dark-blue}  [Homework 3: Topics 4 & 5](#)
+: **PrairieLearn**{: .label .label-dark-blue}  [Homework 3: Topics 4](#)
   : **Assigned**{: .label .label-green} 
 
 June 29
