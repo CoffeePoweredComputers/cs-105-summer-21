@@ -4,7 +4,7 @@ navtitle: Week 3 - Conditionals
 
 June 28 
 : **Lecture 4**{: .label .label-orange} Functions
-  : [Video](#), [Slides](#)
+  : [Video](https://mediaspace.illinois.edu/media/t/1_nigdkwre), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-5/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 3: Topics 4](#)
   : **Assigned**{: .label .label-green} 
 
