@@ -10,7 +10,7 @@ June 28
 
 June 29
 : **Lab 3**{: .label .label-light-blue}[](#)
-  : [Colab Document](#)
+  : [Colab Document](https://drive.google.com/file/d/1tviIYVHJ59_jKMXJUVzRfACfikgI2eyF/view?usp=sharing), [Excel Document](https://drive.google.com/file/d/11QyItrBTTBb3ihHGkWY9Rtd8eW06-x5E/view?usp=sharing)
 : **zyBooks**{: .label .label-dark-blue} [Topic 5 - Conditionals](#)
   : **Assigned**{: .label .label-green} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 5](#)
