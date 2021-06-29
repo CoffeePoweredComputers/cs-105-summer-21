@@ -1,5 +1,5 @@
 ---
-navtitle: Week 2 - Types and Functions
+navtitle: Week 2 - Types and Expressions
 ---
 
 June 21 
