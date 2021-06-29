@@ -1,5 +1,5 @@
 ---
-navtitle: Week 4 - Loops and Excel
+navtitle: Week 4 - Loops and Conditionals
 ---
 
 July 5

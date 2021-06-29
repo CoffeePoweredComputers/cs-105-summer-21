@@ -1,5 +1,5 @@
 ---
-navtitle: Week 6 - Lists and HTML
+navtitle: Week 6 - Lists and the Internet
 ---
 
 July 19

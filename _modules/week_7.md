@@ -1,5 +1,5 @@
 ---
-navtitle: Week 7 - Dictionaries and Review
+navtitle: Week 7 - HTML and Dictionaries 
 ---
 
 July 26 

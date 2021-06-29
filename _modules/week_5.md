@@ -1,5 +1,5 @@
 ---
-navtitle: Week 5 - Strings, Files, and Patterns
+navtitle: Week 5 - Excel, Strings and Files
 ---
 
 July 12

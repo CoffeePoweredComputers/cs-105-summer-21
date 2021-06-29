@@ -1,5 +1,5 @@
 ---
-navtitle: Week 3 - Conditionals
+navtitle: Week 3 - Functions
 ---
 
 June 28 
