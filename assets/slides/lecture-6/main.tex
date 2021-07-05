@@ -137,6 +137,19 @@
 \end{frame}
 
 %
+% Slide
+%
+\begin{frame}[fragile]
+  \frametitle{Relational Ops on Non-numbers}
+  \begin{enumerate}[A]
+    \item \lstinline|ord("c")| \textrightarrow 99
+    \item \lstinline|ord("D")| \textrightarrow 68
+    \item Strings are compared based on the ASCII values of their characters.
+    \item People often normalize strings before comparisons: \lstinline|thing1.lower() < thing2.lower()|
+  \end{enumerate}
+\end{frame}
+
+%
 % Slide 2
 %
 \begin{frame}[fragile]
@@ -370,7 +383,7 @@
 \begin{frame}[fragile]
   \frametitle{Short Circuiting}
   \begin{itemize}
-    \item Python is \textbf{lazy} 
+    \item Python is \textbf{lazy} (for efficiency reasons)
     \item It won't evaluate Boolean expressions it doesn't need to
   \end{itemize}
   \vfill
@@ -395,45 +408,124 @@
 % Slide 2
 %
 \begin{frame}[fragile]
-  \frametitle{Poll Question: }
-
-  \begin{lstlisting}[language=Python, autogobble]
-
-  \end{lstlisting}
+  \frametitle{Poll Question: Multi-way Branches}
+  If you were choosing between 6 possibilities, what is the fewest \lstinline|elif| statements you could have?
   \vfill
-  \begin{enumerate}[A]
-    \item 
-  \end{enumerate}
+  \begin{minipage}{0.49\textwidth}
+    \begin{enumerate}[A]
+      \item 1
+      \item 2
+      \item 3
+      \item 4
+      \item 5
+    \end{enumerate}
+  \end{minipage}
+  \pause
+  \begin{minipage}{0.49\textwidth}
+    \begin{lstlisting}[language=Python, autogobble]
+  if <cond>:
+    ...
+  elif <cond>:
+    ...
+  elif <cond>:
+    ...
+  elif <cond>:
+    ...
+  elif <cond>:
+    ...
+  else:
+    ...
+    \end{lstlisting}
+  \end{minipage}
 \end{frame}
 
 %
 % Slide 2
 %
 \begin{frame}[fragile]
-  \frametitle{Poll Question: }
-
-  \begin{lstlisting}[language=Python, autogobble]
-
-  \end{lstlisting}
+  \frametitle{Poll Question: Nesting}
+  What does the code on the right print?
   \vfill
-  \begin{enumerate}[A]
-    \item 
-  \end{enumerate}
+  \begin{minipage}{0.49\textwidth}
+    \begin{enumerate}[A]
+      \item 2
+      \item 5
+      \item 8
+      \item SyntaxError
+    \end{enumerate}
+  \end{minipage}
+  \pause
+  \begin{minipage}{0.49\textwidth}
+    \begin{lstlisting}[language=Python, autogobble]
+    x = 2
+    if x < 8:
+      if x > 5:
+        print(8)
+      else:
+        print(5)
+    else:
+      print(2)
+    \end{lstlisting}
+  \end{minipage}
 \end{frame}
 
 %
 % Slide 2
 %
+\section{Code Blocks}
 \begin{frame}[fragile]
-  \frametitle{Poll Question: }
+  \frametitle{Code Blocks}
 
+  \begin{itemize}
+    \item Fancy term for defining a unit of execution.
+  \end{itemize}
   \begin{lstlisting}[language=Python, autogobble]
+  model = input('Enter car model: ')
+  year = int(input('Enter year of car manufacture: '))
 
+  antique = False
+  domestic = False
+
+  if year < 1970:
+    antique = True
+
+  if model in ['Ford', 'Chevrolet', 'Dodge']:
+    domestic = True
+
+  if antique:
+    if domestic:
+      print('My own model-T still runs like a charm...')
   \end{lstlisting}
+\end{frame}
+
+%
+% Slide 2
+%
+\section{Conditional Expressions}
+\begin{frame}[fragile]
+  \frametitle{Conditional Expressions vs if-else}
+
+  \begin{itemize}
+    \item Follows this template: \lstinline|x if <cond> else y|
+    \item Useful for item assignment where a condition must be met in order to avoid errors
+    \item More concise
+  \end{itemize}
   \vfill
-  \begin{enumerate}[A]
-    \item 
-  \end{enumerate}
+  \begin{minipage}{0.49\textwidth}
+    \begin{lstlisting}[language=Python, autogobble]
+    x = input()
+    if len(x) > 9:
+      y = x[9]
+    else:
+      y = None
+    \end{lstlisting}
+  \end{minipage}
+  \begin{minipage}{0.49\textwidth}
+    \begin{lstlisting}[language=Python, autogobble]
+    x = input()
+    y = x[9] if len(x) > 9 else None
+    \end{lstlisting}
+  \end{minipage}
 \end{frame}
 
 
