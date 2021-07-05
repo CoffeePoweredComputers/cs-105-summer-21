@@ -4,7 +4,7 @@ navtitle: Week 4 - Loops and Conditionals
 
 July 5
 : **Lecture 5**{: .label .label-orange} Conditionals
-  : [Video](#), [Slides](#)
+  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-6/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 4: Topics 5 &  6](#)
   : **Assigned**{: .label .label-green} 
 
