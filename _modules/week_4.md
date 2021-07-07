@@ -10,7 +10,7 @@ July 5
 
 July 6
 : **Lab 4**{: .label .label-light-blue}[](#)
-  : [Colab Document](#)
+  : [Colab Document](https://drive.google.com/file/d/1Rb-7yBnWAINiS5Fd_jIQUzWZIO0pli6y/view?usp=sharing)
 : **zyBooks**{: .label .label-dark-blue} [Topic 6 - Loops](#)
   : **Due**{: .label .label-red} 
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 6](#)
