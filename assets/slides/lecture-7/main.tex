@@ -108,9 +108,9 @@
 %
 \begin{frame}[fragile]
   \frametitle{Poll Question: For Loops}
-
+  How many lines are printed to the screen?
   \begin{lstlisting}[language=Python, autogobble]
-  course_times = {'CS 105': 'F9-11', "CS 105": "MWF11-12"}
+  course_times = {'CS 105': 'F9-11', "CS 125": "MWF11-12"}
   for course in course_times:
     print(course, 'meets', course_times[course])
   \end{lstlisting}
@@ -200,7 +200,6 @@
     \item 5
     \item 6
     \item 7
-    \item Another number
     \item SyntaxError
   \end{enumerate}
 \end{frame}
@@ -283,7 +282,7 @@
   \end{lstlisting}
   \vfill
   \begin{enumerate}[A]
-    \item 0
+    \item 4
     \item 1
     \item 2
     \item 6
@@ -295,11 +294,12 @@
 %
 \begin{frame}[fragile]
   \frametitle{Poll Question: Break vs Return}
+  On which inputs do these functions behave differently?
   \centering
   \begin{minipage}{0.45\textwidth}
     \begin{lstlisting}[language=Python, autogobble]
     def func(a_list):
-      for item in a list:
+      for item in a_list:
         if item == "":
           break
         print(item)
@@ -319,7 +319,7 @@
   \end{minipage}
   \vfill
   \begin{enumerate}[A]
-    \item \lstinline|["a", "b", "c", "d"]|
+    \item \lstinline|["a", "b", "", "d"]|
     \item \lstinline|["a", "b", "c", ""]|
     \item both
     \item neither
@@ -333,7 +333,7 @@
   \frametitle{Poll Question: Continue}
   How many items are printed?
   \begin{lstlisting}[language=Python, autogobble]
-  mixed_list = ['hi', '3', math.py, 'there', ['CS', '105']]
+  mixed_list = ['hi', '3', math.pi, 'there', ['CS', 105]]
   for item in mixed_list:
     if type(item) != str:
       continue
@@ -355,7 +355,7 @@
   \frametitle{Break vs Return vs Continue}
   \begin{itemize}
     \item \textbf{continue} \textrightarrow Skips everything below it and goes back to the beginning of the loop.
-    \item \textbf{reuturn} \textrightarrow Leaves function with return value.
+    \item \textbf{return} \textrightarrow Leaves function with return value.
     \item \textbf{break} \textrightarrow Exits loop it is apart of.
     \end{itemize}
 \end{frame}
