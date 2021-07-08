@@ -4,7 +4,7 @@ navtitle: Week 4 - Loops and Conditionals
 
 July 5
 : **Lecture 5**{: .label .label-orange} Conditionals
-  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-6/main.pdf %})
+  : [Video](https://mediaspace.illinois.edu/media/t/1_u5gysrcs), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-6/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 4: Topics 5 &  6](#)
   : **Assigned**{: .label .label-green} 
 
@@ -18,7 +18,7 @@ July 6
 
 July 7
 : **Lecture 6**{: .label .label-orange} Loops
-  : [Video](#), [Slides](#), [Instructor Notes](#)
+  : [Video](https://mediaspace.illinois.edu/media/t/1_8q8dg2p9), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-7/main.pdf %})
 : **zyBooks**{: .label .label-dark-blue} [Topic 7 - Excel and more functions](#)
   : **Assigned**{: .label .label-green} 
 : **PrairieLearn**{: .label .label-dark-blue} [Post Reading 7](#)
