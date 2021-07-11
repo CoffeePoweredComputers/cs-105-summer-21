@@ -1,0 +1,417 @@
+\documentclass{beamer}
+
+\usepackage{graphicx}
+\usepackage{textpos}
+\usepackage{listings}
+\usepackage{lstautogobble}
+
+\usetheme{Madrid}
+\useoutertheme{miniframes} % Alternatively: miniframes, infolines, split
+
+% Setup the university's color pallette
+\definecolor{UIUCorange}{RGB}{19, 41, 75} % UBC Blue (primary)
+\definecolor{UIUCblue}{RGB}{232, 74, 39} % UBC Grey (secondary)
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{python}{
+  backgroundcolor=\color{backcolour},   
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  belowskip=-0.5em,
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+\lstset{style=python}
+
+\AtBeginSection[]{
+    \begin{frame}
+        \vfill
+        \centering
+        \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+            \usebeamerfont{title}\insertsectionhead\par%
+        \end{beamercolorbox}
+        \vfill
+    \end{frame}
+}
+% Setup the university's color pallette
+\definecolor{UIUCorange}{RGB}{19, 41, 75} % UBC Blue (primary)
+\definecolor{UIUCblue}{RGB}{232, 74, 39} % UBC Grey (secondary)
+
+
+\setbeamercolor{palette primary}{bg=UIUCorange,fg=white}
+\setbeamercolor{palette secondary}{bg=UIUCblue,fg=white}
+\setbeamercolor{palette tertiary}{bg=UIUCblue,fg=white}
+\setbeamercolor{palette quaternary}{bg=UIUCblue,fg=white}
+\setbeamercolor{structure}{fg=UIUCorange} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=UIUCblue} % TOC sections
+
+\setbeamercolor{subsection in head/foot}{bg=UIUCorange,fg=UIUCblue}
+\setbeamercolor{subsection in head/foot}{bg=UIUCorange,fg=UIUCblue}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+%Information to be included in the title page:
+\title{\textbf{Functions and Excel}}
+\author{\textbf{David H Smith IV}}
+\institute[\textbf{UIUC}]{\textbf{University of Illinois Urbana-Champaign}}
+\date{\textbf{Mon, July 12 2021}}
+
+\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true]
+\addtobeamertemplate{title page}{\vspace{3\baselineskip}}{}
+\addtobeamertemplate{title page}{
+  \begin{textblock*}{\paperwidth}(-1.0em, -1.2em)
+    \includegraphics[width=\paperwidth, height=\paperheight]{imgs/uiuc.png}
+  \end{textblock*} 
+}{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\section{Announcements}
+
+%
+% Slide 1
+%
+\begin{frame}
+  \frametitle{Announcements}
+  \begin{itemize}
+    \item 
+  \end{itemize}
+\end{frame}
+
+\section{More on Functions}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Dynamic Typing}
+  Python is a dynamically typed language
+  \begin{itemize}
+    \item The \lstinline|x| does several different things:
+      \begin{enumerate}
+        \item Integer addition
+        \item Floating point addition
+        \item String concatenation
+      \end{enumerate}
+    \item At \textbf{runtime} Python looks at the \lstinline|+| operator and determines the correct behaviours based on the types or it's operands.
+    \item \textbf{Polymorphism} \textrightarrow A single piece of code can do several things depending on the type of data it's working with.
+      \begin{enumerate}
+        \item You can write less code.
+        \item Can be harder to find bugs.
+      \end{enumerate}
+
+  \end{itemize}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Polymorphic Functions}
+  \begin{lstlisting}[language=Python, autogobble]
+  def print_all(collection):
+    for item in collection:
+      print(item)
+
+  print_all([1, 2, 3, 4])
+  print_all({ 'k': 'v', 'CS': '105' }) #A
+  print_all(7)                         #B
+  print_all('a string')                #C
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item A error
+    \item B error
+    \item C error
+    \item A \& B error
+    \item A \& C error
+    \item B \& C error
+  \end{enumerate}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Function Scoping}
+  \begin{lstlisting}[language=Python, autogobble]
+  my_var = 11
+  def my_print(my_var):
+    print(my_var)
+
+  my_print(22)
+  print(my_var)
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item 11\\11
+    \item 11\\22
+    \item 22\\11
+    \item 22\\22
+    \item NameError
+  \end{enumerate}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Scoping}
+  \begin{itemize}
+    \item Every function is given a clean slate.
+    \item Any variables written in a function are defined in the function's scope.
+    \item The scope is destroyed when the function returns.
+    \item If a name is read that doesn't exist in the function's scope, it tries the scope the function was defined in.
+  \end{itemize}
+\end{frame}
+
+
+\section{Excel Polls}
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Excel Cell Range}
+  How many cells in region \lstinline|A1:B10|
+  \vfill
+  \begin{enumerate}[A]
+    \item 9
+    \item 10
+    \item 18
+    \item 20
+  \end{enumerate}
+  \pause
+  \textbf{Answer: } Colon-separated pair follows the form \lstinline|upper-left:lower:right|.
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Excel}
+  If cell A1 contains \lstinline|Champaign|\\
+  \begin{enumerate}
+    \item \lstinline|=A1="CHAMPAIGN"|
+    \item \lstinline|=A1>"Boston"|
+    \item \lstinline|=A1="*ham*"|
+  \end{enumerate}
+  \vfill
+  \begin{enumerate}[A]
+    \item 1
+    \item 2
+    \item 3
+    \item Both 1 \& 2
+    \item Both 1 \& 3
+    \item Both 2 \& 3
+  \end{enumerate}
+\end{frame}
+
+\section{Excel Review}
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Excel: SUM}
+  \begin{lstlisting}[language=Python, autogobble]
+  def SUM(selected_range):
+    total = 0
+    for cell in selected_range:
+      total += cell
+    return total
+  \end{lstlisting}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Excel: COUNTIF}
+  \begin{lstlisting}[language=Python, autogobble]
+  def COUNTIF(selected_range, criteria):
+    count = 0
+    for cell in selected_range:
+      if meets_criteria(cell, criteria):
+        count += 1
+    return count
+  \end{lstlisting}
+  \vfill
+  Criteria should be:
+  \begin{itemize}
+    \item A single value: \lstinline|7| or \lstinline|"Illinois"|
+    \item A comparison: \lstinline|">7"| or \lstinline|">" \& B2|
+    \item A string with wildcards: \lstinline|"*BADM*"| or \lstinline|"CS 10?"|
+  \end{itemize}
+\end{frame}
+
+
+%
+%
+%
+\begin{frame}[fragile]
+  \frametitle{Excel: COUNTIF cont'd}
+  \begin{enumerate}[A]
+    \item \lstinline|COUNTIFS(range1, criteria1, range2, criteria2)|
+    \item Ranges 1 and 2 must be of equal \# of rows and columns.
+    \item Counts each time the nth value of each range meets that range's criteria.
+  \end{enumerate}
+\end{frame}
+
+%
+%
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: COUNTIF}
+  How many rows are selected as a result of the following query?
+  \lstinline|=COUNTIFS(A1:A7, ">10", B1:B7, "empty")|
+  \vfill
+  \begin{minipage}{0.48\textwidth}
+  \begin{enumerate}[A]
+    \item \lstinline|1|
+    \item \lstinline|2|
+    \item \lstinline|3|
+    \item \lstinline|4|
+    \item \lstinline|5|
+  \end{enumerate}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \includegraphics[width=0.75\textwidth]{./imgs/spreadsheet_countif.png}
+  \end{minipage}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Excel: INDEX}
+  \begin{enumerate}
+    \item 1-dimensional lookup:
+      \begin{itemize}
+        \item \lstinline|=INDEX(cellrange, rowindex)|
+        \item \lstinline|=INDEX(B3:B11, 4)| \textrightarrow C6
+      \end{itemize}
+    \item 2-dimensional lookup:
+      \begin{itemize}
+        \item \lstinline|=INDEX(cellrange, rowindex, colindex)|
+        \item \lstinline|=INDEX(B3:D11, 4, 2)| \textrightarrow C6
+      \end{itemize}
+  \end{enumerate}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: INDEX}
+  Which cell does \lstinline|=INDEX(C10:F20, 3, 2)| read from?
+  \vfill
+  \begin{enumerate}[A]
+    \item D12
+    \item E11
+    \item E12
+    \item E13
+    \item F12
+  \end{enumerate}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Excel: MATCH}
+  \lstinline|=MATCH(value, cellrange, matchtype)|
+  \begin{itemize}
+    \item value is the value we're looking for
+    \item cell-range is a row or a column 
+    \item match type is:
+      \begin{itemize}
+        \item 0 = exact match
+        \item 1 = Largest less than or equal, values must be sorted in increasing order
+        \item -1 = Smallest value greater than or equal, values must be sorted in descending order
+      \end{itemize}
+    \item returns 1-based index into the cell range for a cell containing the value
+    \item return \#N/A if no match
+  \end{itemize}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: MATCH}
+  What does this call to the MATCH function return: \lstinline|=MATCH("Craig", A2:A8, 0)|.\\
+  \vfill
+  \begin{minipage}{0.48\textwidth}
+    \begin{enumerate}[A]
+      \item 2
+      \item 3
+      \item 4
+      \item A3
+      \item A4
+      \item \#NA
+    \end{enumerate}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \includegraphics[width=0.75\textwidth]{./imgs/spreadsheet_match.png}
+  \end{minipage}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Excel: VLOOKUP - Combining INDEX and MATCH}
+  \begin{itemize}
+    \item Handles a common case of INDEX + MATCH
+    \item \lstinline|=VLOOKUP(value, table, col_index, [range_lookup])|
+      \begin{itemize}
+        \item \textbf{value} \textrightarrow  Value to look for in the first column of table.
+        \item \textbf{table} \textrightarrow  Table from which to retrieve a value.
+        \item \textbf{col\_index} \textrightarrow The column in the table from which to retrieve a value.
+        \item \textbf{range\_lookup} \textrightarrow TRUE for approximate match and FALSE for exact match.
+      \end{itemize}
+      \item Value searched for must be to the left of value to return.
+      \item HLOOKUP does for rows, what VLOOKUP does for cols.
+  \end{itemize}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Docstrings!}
+  \centering
+  Off to Repl.it we go\ldots
+\end{frame}
+
+\end{document}
