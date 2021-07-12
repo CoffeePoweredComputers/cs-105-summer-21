@@ -93,7 +93,10 @@
 \begin{frame}
   \frametitle{Announcements}
   \begin{itemize}
-    \item 
+    \item Practice quiz is up 
+    \item Don't forget to register for the quiz Thursday
+    \item Homework 5 is up and homework 4 has entered it's 70\% grace period
+    \item Topic 8 and post reading 8 are both due tommorow 
   \end{itemize}
 \end{frame}
 
@@ -106,7 +109,7 @@
   \frametitle{Dynamic Typing}
   Python is a dynamically typed language
   \begin{itemize}
-    \item The \lstinline|x| does several different things:
+    \item The \lstinline|+| does several different things:
       \begin{enumerate}
         \item Integer addition
         \item Floating point addition
@@ -127,25 +130,31 @@
 %
 \begin{frame}[fragile]
   \frametitle{Poll Question: Polymorphic Functions}
-  \begin{lstlisting}[language=Python, autogobble]
-  def print_all(collection):
-    for item in collection:
-      print(item)
-
-  print_all([1, 2, 3, 4])
-  print_all({ 'k': 'v', 'CS': '105' }) #A
-  print_all(7)                         #B
-  print_all('a string')                #C
-  \end{lstlisting}
+  Which function produces an error?\\
   \vfill
-  \begin{enumerate}[A]
-    \item A error
-    \item B error
-    \item C error
-    \item A \& B error
-    \item A \& C error
-    \item B \& C error
-  \end{enumerate}
+  \begin{minipage}{0.69\textwidth}
+    \begin{lstlisting}[language=Python, autogobble]
+    def print_all(collection):
+      for item in collection:
+        print(item)
+
+    print_all([1, 2, 3, 4])
+    print_all({ 'k': 'v', 'CS': '105' }) #A
+    print_all(7)                         #B
+    print_all('a string')                #C
+    \end{lstlisting}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.29\textwidth}
+    \begin{enumerate}[A]
+      \item A error
+      \item B error
+      \item C error
+      \item A \& B error
+      \item A \& C error
+      \item B \& C error
+    \end{enumerate}
+  \end{minipage}
 \end{frame}
 
 
@@ -154,22 +163,27 @@
 %
 \begin{frame}[fragile]
   \frametitle{Poll Question: Function Scoping}
-  \begin{lstlisting}[language=Python, autogobble]
-  my_var = 11
-  def my_print(my_var):
-    print(my_var)
+  \begin{minipage}{0.69\textwidth}
+    What is produced by the following code?
+    \begin{lstlisting}[language=Python, autogobble]
+    my_var = 11
+    def my_print(my_var):
+      print(my_var)
 
-  my_print(22)
-  print(my_var)
-  \end{lstlisting}
-  \vfill
-  \begin{enumerate}[A]
-    \item 11\\11
-    \item 11\\22
-    \item 22\\11
-    \item 22\\22
-    \item NameError
-  \end{enumerate}
+    my_print(22)
+    print(my_var)
+    \end{lstlisting}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.29\textwidth}
+    \begin{enumerate}[A]
+      \item 11\\11
+      \item 11\\22
+      \item 22\\11
+      \item 22\\22
+      \item NameError
+    \end{enumerate}
+  \end{minipage}
 \end{frame}
 
 
@@ -202,7 +216,7 @@
     \item 20
   \end{enumerate}
   \pause
-  \textbf{Answer: } Colon-separated pair follows the form \lstinline|upper-left:lower:right|.
+  \textbf{Answer:} Colon-separated pair follows the form \lstinline|upper-left:lower-right|.
 \end{frame}
 
 
@@ -234,11 +248,22 @@
 %
 \begin{frame}[fragile]
   \frametitle{Excel: SUM}
+  For a 1-D Structure
   \begin{lstlisting}[language=Python, autogobble]
   def SUM(selected_range):
     total = 0
     for cell in selected_range:
       total += cell
+    return total
+  \end{lstlisting}
+  \vfill
+  For a 2-D Structure 
+  \begin{lstlisting}[language=Python, autogobble]
+  def SUM(selected_range):
+    total = 0
+    for row in selected_range:
+      for column in row:
+        total += cell
     return total
   \end{lstlisting}
 \end{frame}
@@ -261,7 +286,7 @@
   Criteria should be:
   \begin{itemize}
     \item A single value: \lstinline|7| or \lstinline|"Illinois"|
-    \item A comparison: \lstinline|">7"| or \lstinline|">" \& B2|
+    \item A comparison: \lstinline|">7"| or \lstinline|">" & B2|
     \item A string with wildcards: \lstinline|"*BADM*"| or \lstinline|"CS 10?"|
   \end{itemize}
 \end{frame}
@@ -347,8 +372,8 @@
   \frametitle{Excel: MATCH}
   \lstinline|=MATCH(value, cellrange, matchtype)|
   \begin{itemize}
-    \item value is the value we're looking for
-    \item cell-range is a row or a column 
+    \item \textbf{value} is the value we're looking for
+    \item \textbf{cell-range} is a row or a column 
     \item match type is:
       \begin{itemize}
         \item 0 = exact match
