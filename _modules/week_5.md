@@ -4,7 +4,7 @@ navtitle: Week 5 - Excel, Strings and Files
 
 July 12
 : **Lecture 7**{: .label .label-orange} Excel and more functions
-  : [Video](https://mediaspace.illinois.edu/media/t/1_lkuy40xx), [Slides]({{ si#te.baseurl }}{% link assets/slides/lecture-8/main.pdf %}) 
+  : [Video](https://mediaspace.illinois.edu/media/t/1_lkuy40xx), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-8/main.pdf %}) 
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 5: Topics 7 & 8](#)
 
 July 13
@@ -17,7 +17,7 @@ July 13
 
 July 14
 : **Lecture 8**{: .label .label-orange} Strings and Files
-  : [Video](#), [Slides](#), [Instructor Notes](#)
+  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-9/main.pdf %})
 : **zyBooks**{: .label .label-dark-blue} [Topic 9 - Intro to the Web](#)
   : **Assigned**{: .label .label-green} 
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 9](#)

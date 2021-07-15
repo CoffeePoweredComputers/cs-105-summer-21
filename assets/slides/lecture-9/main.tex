@@ -226,14 +226,54 @@
   \end{enumerate}
 \end{frame}
 
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{A Common Pattern}
+  The generic pattern:
+  \begin{lstlisting}[language=Python, autogobble]
+  mylist = input_data.split(<separator>)
+  ... data processing ...
+  outputstring "<separator>".join(my_list)
+  \end{lstlisting}
+  \vfill
+  An example of this being done on one line:
+  \begin{lstlisting}[language=Python, autogobble]
+  output = ",".join(input.split(",")[::2])
+  \end{lstlisting}
+\end{frame}
 \section{Files}
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Why do we use files?}
+  \begin{minipage}{0.48\textwidth}
+    \begin{itemize}
+      \item Files are how data are stored on external storage
+      \item Managed by O/S
+      \item Disk is slow
+      \item Opening files moves them to memory for the program
+      \item Data is buffered (temporarily stored) in memory
+    \end{itemize}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\textwidth}
+    \centering
+    \includegraphics[width=0.95\textwidth]{./imgs/von-neumann-arch.png}
+    \vfill
+  \end{minipage}
+\end{frame}
+
 
 %
 % Slide 2
 %
 \begin{frame}[fragile]
   \frametitle{Poll Question: Opening a File}
-  By default what does this code allow?
+  By default what does the \listinline|open()| function have it's file access permissions set as?
   \begin{lstlisting}[language=Python, autogobble]
   \end{lstlisting}
   \vfill
@@ -280,7 +320,7 @@
   Method 2:
   \begin{lstlisting}[language=Python, autogobble]
   with open('filename') as inf:
-    lines = file_object.readlines()
+    lines = inf.readlines()
     for line in lines:
       print(line)
     #automatic file close
@@ -303,7 +343,7 @@
   Method 2:
   \begin{lstlisting}[language=Python, autogobble]
   with open('filename', 'w') as outf:
-    file_object.write('thing to write')
+    outf.write('thing to write')
     #automatic file close
   \end{lstlisting}
 \end{frame}
