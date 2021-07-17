@@ -56,7 +56,7 @@ The following is the link to the lecture: [https://illinois.zoom.us/j/8847572049
 
 ### Labs
 
-Labs will meet using Discord and be focused on giving students practice with the course content and debugging code.  They are designed to be completed by a group of students rather than individually so you are encouraged to work with your peers. Though both attendance and completion will contribute to your grade lab completion is largely based on effort put in and ability to demonstrate to a course TA or CA the work that has been done on the lab rather than a set "correctness" standard.
+Labs will meet using Discord and be focused on giving students practice with the course content and debugging code.  They are designed to be completed by a group of students rather than individually so you are encouraged to work with your peers. Though both attendance and completion will contribute to your grade lab completion is largely based on effort put in and ability to demonstrate to a course TA or CA the work that has been done on the lab rather than a set "correctness" standard. Your lowest lab score will be dropped at the end of the semester.
 
 Follow these steps to get Discord setup and running on your computers:
 1. Make an account with your Illinois outlook account: [discord.com](https://discord.com)
