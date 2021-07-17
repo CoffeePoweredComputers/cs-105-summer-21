@@ -108,7 +108,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: List Tracing}
   What is the result of the following code segment
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   A = [2, 3, 5]
   B = A
   B[0] = 100
@@ -130,7 +130,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: List Function}
   What is the value of x?
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   x = list('abc')
   \end{lstlisting}
   \vfill
@@ -148,7 +148,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: List Functions}
   What is the value of \lstinline|a| after this code is run?
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   a = [2, 4, 6, 8]
   a.remove(4)
   a.pop(2)
@@ -168,7 +168,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: List Functions}
   What is the value of \lstinline|a| after this code is run?
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   a = [2, 4, 6, 8]
   a.pop(2)
   a.remove(4)
@@ -187,7 +187,7 @@
 %
 \begin{frame}[fragile]
   \frametitle{Poll Question: List Slicing/Indexing}
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   A = [1, 2, 3]
   B = A
   C = A[:]
@@ -209,7 +209,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: More List Functions}
   Which will cause \lstinline|x = [1, 2, 3, 4]|
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   x = [1, 2]
   \end{lstlisting}
   \vfill
@@ -230,7 +230,7 @@
   \frametitle{Poll Question: Loops}
   What will this output?\\
   \begin{minipage}{0.48\textwidth}
-    \begin{lstlisting}
+    \begin{lstlisting}[language=Python, autogobble]
     A = [5, 10, 15]
     for i in range(len(A)):
       A[i] = A[i] + 1
@@ -260,7 +260,7 @@
   \frametitle{Poll Question: Removal Functions}
   We want a program that removes all spaces form strings. Which is correct?\\
   \begin{minipage}{0.48\textwidth}
-    \begin{lstlisting}
+    \begin{lstlisting}[language=Python, autogobble]
   #A
   def space_remove(s):
     for c in s:
@@ -297,7 +297,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: Nested Lists}
   What is the result of x?
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   my_list = [
       ['a', 'b', 'c'],
       ['d', 'e', 'f'],
@@ -320,7 +320,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: Tracing}
   What is the value of \lstinline|x|.
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   x = [v*v for v in ['1', '2', '3']]
   \end{lstlisting}
   \vfill
@@ -337,7 +337,7 @@
 %
 \begin{frame}[fragile]
   \frametitle{List Comprehensions}
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   # Basic list comprehension
   [expression for value in sequence]
 
@@ -355,7 +355,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: List Comprehension}
   What is the value of \lstinline|y|.
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   y = [c for c in 'alma mater' if c in 'aeiou']
   \end{lstlisting}
   \vfill
