@@ -140,7 +140,8 @@
 % Slide 2
 %
 \begin{frame}[fragile]
-  \frametitle{Poll Question: }
+  \frametitle{Poll Question: The Internet}
+  Which of the following are true?
   \vfill
   \begin{enumerate}[A]
     \item Tags in HTML documents typically come in pairs
@@ -159,7 +160,7 @@
 %
 \begin{frame}[fragile]
   \frametitle{Counting Pattern}
-  \begin{lstlisting}[language=Python, autogobble]
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
   def count(collection):
     counter = 0
     for item in collection:
@@ -174,7 +175,7 @@
 %
 \begin{frame}[fragile]
   \frametitle{Computing a Sum/Total}
-  \begin{lstlisting}[language=Python, autogobble]
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
   def sum(collection):
     total = 0
     for item in collection:
@@ -188,14 +189,14 @@
 %
 \begin{frame}[fragile]
   \frametitle{Finding (single thing) in a Collection}
-  \begin{lstlisting}[language=Python, autogobble]
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
   def find_thing(collection):
     for thing in collection:
       if <thing meets condition>:
         return thing
   \end{lstlisting}
   \vfill
-  \begin{lstlisting}[language=Python, autogobble]
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
   def find_thing(collection):
     found = None
     for thing in collection:
@@ -211,7 +212,7 @@
 %
 \begin{frame}[fragile]
   \frametitle{Using Loop else when nothing found}
-  \begin{lstlisting}[language=Python, autogobble]
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
   def find_thing(collection):
     for thing in collection:
       if <thing meets condition>:
@@ -229,7 +230,7 @@
 %
 \begin{frame}[fragile]
   \frametitle{Finding best in collection}
-  \begin{lstlisting}[language=Python, autogobble]
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
   def find_best(collection):
     currentbest = ??
     for thing in collection:
@@ -250,7 +251,7 @@
 %
 \begin{frame}[fragile]
   \frametitle{Filtering a collection}
-  \begin{lstlisting}[language=Python, autogobble]
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
   def filter(collection):
     new_list = []
 
@@ -268,15 +269,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: Patterns}
   Given a list of names, make a new list containing only those enrolled in a given course.
-  \begin{enumerate}[A]
-    \item Sum
-    \item Counter
-    \item Finding ``best'' in collection
-    \item Filtering a collection
-    \item None of the above
-  \end{enumerate}
-  \vfill
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   def find_student_enrolled_in_course(student_registrations, course):
     students = []
     for student in student_registrations:
@@ -284,6 +277,13 @@
         students.append(student)
     return students
   \end{lstlisting}
+  \begin{enumerate}[A]
+    \item Sum
+    \item Counter
+    \item Finding ``best'' in collection
+    \item Filtering a collection
+    \item None of the above
+  \end{enumerate}
 \end{frame}
 
 %
@@ -292,15 +292,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: Patterns}
   Given a list of strings find the longest string.
-  \begin{enumerate}[A]
-    \item Sum
-    \item Counter
-    \item Finding ``best'' in collection
-    \item Filtering a collection
-    \item None of the above
-  \end{enumerate}
-  \vfill
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
   def find_longest_string(strings):
     longest_string = strings[0]
     for string in strings[1:]:
@@ -308,6 +300,14 @@
         longest_string = string
     return longest_string
   \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item Sum
+    \item Counter
+    \item Finding ``best'' in collection
+    \item Filtering a collection
+    \item None of the above
+  \end{enumerate}
 \end{frame}
 
 %
@@ -315,7 +315,7 @@
 %
 \begin{frame}[fragile]
   \frametitle{Poll Question: Patterns}
-  Given a list of strings, find the number of strings that contain the substring \lstlinline|"tion"|.
+  Given a list of strings, find the number of strings that contain the substring \lstinline|"tion"|.
   \begin{enumerate}[A]
     \item Sum
     \item Counter
@@ -324,7 +324,7 @@
     \item None of the above
   \end{enumerate}
   \vfill
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
     def count_substring(strings):
       counter = 0
       for string in strings:
