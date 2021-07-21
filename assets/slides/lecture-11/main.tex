@@ -68,10 +68,10 @@
 \usepackage{graphicx}
 
 %Information to be included in the title page:
-\title{\textbf{Strings and Files}}
+\title{\textbf{Lists}}
 \author{\textbf{David H Smith IV}}
 \institute[\textbf{UIUC}]{\textbf{University of Illinois Urbana-Champaign}}
-\date{\textbf{Mon, July 17 2021}}
+\date{\textbf{Wed, July 21 2021}}
 
 \setbeamertemplate{title page}[default][colsep=-4bp,rounded=true]
 \addtobeamertemplate{title page}{\vspace{3\baselineskip}}{}
@@ -85,7 +85,7 @@
 
 \frame{\titlepage}
 
-\section{Course Overview}
+\section{Reminders}
 
 %
 % Slide 1
@@ -100,7 +100,7 @@
   \end{itemize}
 \end{frame}
 
-\section{The Internet}
+\section{Lists}
 
 %
 % Slide 2
@@ -140,6 +140,23 @@
     \item \lstinline|['a', 'b','c']|
     \item \lstinline|[]|
   \end{enumerate}
+\end{frame}
+
+%
+% Slide
+%
+\begin{frame}[fragile]
+  \frametitle{List Methods}
+  Use \lstinline|help(list.<method name>)| for information on a given method:
+  \begin{itemize}
+    \item \lstinline|L.append(elem)| \textrightarrow \ Add element to the end of L.
+    \item \lstinline|L.extend(lst)| \textrightarrow \ Add all elements of lst to the end of L.
+    \item \lstinline|L.insert(index, elem)| \textrightarrow \ Insert element at index of L pushing other elements forward.
+    \item \lstinline|L.pop()| \textrightarrow \ Remove and return the element at the end of L.
+    \item \lstinline|L.pop(index)| \textrightarrow \ Remove and return the element at index of L.
+    \item \lstinline|L.remove(elem)| \textrightarrow \ Remove first occurrence of element from L.
+    \item \lstinline|L.sort(elem)| \textrightarrow \ Sort the elements of L.
+  \end{itemize}
 \end{frame}
 
 %
@@ -245,10 +262,10 @@
   \hfill
   \begin{minipage}{0.48\textwidth}
     \begin{enumerate}[A]
-      \item \lstinline|1:[5,10,15]2:[5,10,15]|
-      \item \lstinline|1:[6,11,16]2:[6,11,16]|
-      \item \lstinline|1:[5,10,15]2:[6,11,16]|
-      \item \lstinline|1:[6,11,16]2:[5,10,15]|
+      \item \lstinline|1: [5,10,15] 2: [5,10,15]|
+      \item \lstinline|1: [6,11,16] 2: [6,11,16]|
+      \item \lstinline|1: [5,10,15] 2: [6,11,16]|
+      \item \lstinline|1: [6,11,16] 2: [5,10,15]|
     \end{enumerate}
   \end{minipage}
 \end{frame}
@@ -259,6 +276,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: Removal Functions}
   We want a program that removes all spaces form strings. Which is correct?\\
+  \hfill
   \begin{minipage}{0.48\textwidth}
     \begin{lstlisting}[language=Python, autogobble]
   #A
@@ -276,8 +294,7 @@
   def space_remove(s):
     for i in range(len(s)):
       if s[i] == " ":
-        s[i] = ""
-    \end{lstlisting}
+        s[i] = ""\end{lstlisting}
   \end{minipage}
   \hfill
   \begin{minipage}{0.48\textwidth}
@@ -347,6 +364,11 @@
   #Conditional list comprehension with if-else
   [expresssion if conditition else <default> for value in sequence]
   \end{lstlisting}
+  \vfill
+  \begin{itemize}
+    \item Doesn't enable any new functionality 
+    \item \textit{Syntactic Sugar: } Makes code more efficient to write
+  \end{itemize}
 \end{frame}
 
 %
