@@ -4,7 +4,7 @@ navtitle: Week 6 - Lists and the Internet
 
 July 19
 : **Lecture 9**{: .label .label-orange} Intro to the Web
-  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-10/main.pdf %})
+  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-10/main.pdf %}})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 6: Topics 9 & 10](#)
   : **Assigned**{: .label .label-green} 
 
@@ -18,7 +18,7 @@ July 20
 
 July 21
 : **Lecture 10**{: .label .label-orange} Lists
-  : [Video](#), [Slides](#), [Instructor Notes](#)
+  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-10/main.pdf %}}), [Instructor Notes](#)
 : **zyBooks**{: .label .label-dark-blue} [Post Reading 11](#)
   : **Assigned**{: .label .label-green} 
 : **PrairieLearn**{: .label .label-dark-blue}  [Topic 11 - HTML](#)
