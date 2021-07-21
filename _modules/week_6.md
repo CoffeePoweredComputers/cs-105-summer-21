@@ -10,7 +10,7 @@ July 19
 
 July 20
 : **Lab 6**{: .label .label-light-blue}
-  : [Colab Document](#)
+  : [Colab Document](https://drive.google.com/file/d/1PA-sMEGhCRKWS-Q0DsMbHs93nLteSP-6/view?usp=sharing)
 : **zyBooks**{: .label .label-dark-blue} [Topic 10 - Lists](#)
   : **Due**{: .label .label-red} 
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 10](#)
