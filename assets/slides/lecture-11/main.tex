@@ -279,22 +279,22 @@
   \hfill
   \begin{minipage}{0.48\textwidth}
     \begin{lstlisting}[language=Python, autogobble]
-  #A
-  def space_remove(s):
+  def A(s):
     for c in s:
       if c == "":
         c = ""
-  #B
-  def space_remove(s):
+    return s
+  def B(s):
     new_s = ""
     for c in s:
       if c != " ":
         new_s = new_s + c
-  #C
-  def space_remove(s):
+    return new_s
+  def C(s):
     for i in range(len(s)):
       if s[i] == " ":
-        s[i] = ""\end{lstlisting}
+        s[i] = ""
+    return s\end{lstlisting}
   \end{minipage}
   \hfill
   \begin{minipage}{0.48\textwidth}
