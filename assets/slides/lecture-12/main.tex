@@ -93,14 +93,15 @@
 \begin{frame}
   \frametitle{Reminders}
   \begin{itemize}
-    \item This week is the last quiz. Don't forget to signup.
+    \item Please remember to sign-up or submit a conflict request for the quiz
+    \item Practice quiz is up, be sure to attempt it before the actual quiz
     \item Homework 7 is due Friday 
     \item The grace period for homework 6 ends Friday
-    \item Practice quiz is up, be sure to attempt it before the actual quiz
+    \item The grace period for homework 7 will only be until Aug. 5
   \end{itemize}
 \end{frame}
 
-\section{Lists}
+\section{Hyper Text Markup Language}
 
 %
 % Slide 2
@@ -111,7 +112,7 @@
   \begin{itemize}
     \item \textbf{Separation of Concerns: }
     \begin{itemize}
-      \item HTML = Content
+      \item HTML = content
       \item CSS = styling
       \item JS = interactivity
     \end{itemize}
@@ -206,10 +207,165 @@
 \end{frame}
 
 %
+% Slides
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: HTML}
+  What will the following code segment produce?\\
+  \begin{lstlisting}[language=html,autogobble]
+  <ul>
+    <li>CS 105<li>
+    <li>CS 125<li>
+  </ul>
+  \end{lstlisting} 
+  \vfill
+  \begin{enumerate}[A]
+    \item Unordered list with CS 105 and CS 125
+    \item Ordered list with CS 105 and CS 125
+    \item Error
+  \end{enumerate}
+\end{frame}
+
+%
+% Slides
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: HTML}
+  What are the visible column header(s) in the table produced by this HTML?\\
+  \begin{minipage}{0.49\textwidth}
+    \begin{lstlisting}[language=html]
+<table>
+  <caption>CS 105</caption>
+  <tr>
+    <th></th>
+    <th>Assigned</th>
+    <th>Due</th>
+  </tr>
+  <tr>
+    <th>Homework 1</th>
+    <td>06/14/2021</td>
+    <td>06/21/2021</td>
+  </tr>
+</table>
+    \end{lstlisting} 
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.45\textwidth}
+    \begin{enumerate}[A]
+      \item Assigned
+      \item Assigned \& Due
+      \item Homework 1
+      \item 06/14/2021 \& 06/21/2021
+    \end{enumerate}
+  \end{minipage}
+\end{frame}
+
+%
+% Slides
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: HTML}
+  How many rows are produced by this table?\\
+  \begin{minipage}{0.49\textwidth}
+  \begin{lstlisting}[language=html, basicstyle=\scriptsize]
+<table>
+  <tr>
+    <th>Assigned</th>
+    <th>Due</th>
+  </tr>
+  <tr>
+    <td>06/14/2021</td>
+    <td>06/21/2021</td>
+  </tr>
+  <tr>
+    <td>07/04/2021</td>
+    <td>07/14/2021</td>
+  </tr>
+  <tr>
+    <td>07/04/2021</td>
+    <td>07/14/2021</td>
+  </tr>
+</table>
+    \end{lstlisting} 
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.39\textwidth}
+    \begin{enumerate}[A]
+      \item 4
+      \item 3
+      \item 2
+      \item 1
+    \end{enumerate}
+  \end{minipage}
+\end{frame}
+
+%
+% Slides
+%
+\begin{frame}[fragile]
+  Given this directory structure and this sample HTML, which document do you think this HTML is in?\\
+  \begin{minipage}{0.65\textwidth}
+    \begin{lstlisting}
+    dev_website
+    |---index.html
+    |___elements
+        |--- about.html
+        |--- cv.html
+        |___ projects.html
+    \end{lstlisting} 
+    \hfill
+    \begin{lstlisting}[language=html, basicstyle=\scriptsize]
+    <a href="elements/about.html">About</a>
+    <a href="elements/cv.html">CV</a>
+    <a href="elements/projects.html">Projects</a>
+    \end{lstlisting} 
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.3\textwidth}
+    \begin{enumerate}[A]
+      \item index.html
+      \item about.html
+      \item cv.html
+      \item projects.html
+    \end{enumerate}
+  \end{minipage}
+\end{frame}
+%
+% Slides
+%
+\begin{frame}[fragile]
+  \begin{minipage}{0.49\textwidth}
+  What is produced on a webpage assuming the image referenced by href is broken or missing?
+  \begin{lstlisting}[language=html, basicstyle=\scriptsize]
+  <img src="img.jpg" alt="This is an image">
+  \end{lstlisting} 
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.39\textwidth}
+    \begin{enumerate}[A]
+      \item img.jpg
+      \item This is an image
+      \item Nothing, there is an error with the html
+    \end{enumerate}
+  \end{minipage}
+\end{frame}
+
+
+%
 % Slide 2
 %
 \begin{frame}[fragile]
   \frametitle{Reading data from the internet}
+  \begin{lstlisting}[language=Python]
+  import urllib.request
+
+  req = urllib.request.Request("https://wikipedia.com")
+  with urllib.request.urlopen(req) as response:
+    the_page = response.read()
+
+  print(the_page)
+  \end{lstlisting} 
+  \vfill
   \begin{enumerate}[A]
     \item From a Python program
     \item urllib module: Given a URL, returns the document at that URL
