@@ -4,7 +4,7 @@ navtitle: Week 7 - HTML and Dictionaries
 
 July 26 
 : **Lecture 11**{: .label .label-orange} HTML
-  : [Video](#), [Slides](#), [Instructor Notes](#)
+  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-12/main.pdf %})
 : **PrairieLearn**{: .label .label-dark-blue}  [Homework 7: Topics 11 & 12](#)
   : **Assigned**{: .label .label-green} 
 
