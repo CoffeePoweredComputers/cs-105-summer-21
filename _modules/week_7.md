@@ -10,7 +10,7 @@ July 26
 
 July 27
 : **Lab 7**{: .label .label-light-blue}
-  : [Colab Document](#)
+  : [Template](https://drive.google.com/file/d/1tyRCitHHgfBdJ2X4L75d0kF-jGUW_MQe/view?usp=sharing), [Lab Instructions](https://drive.google.com/file/d/1lW39y4TCyMlXKdKoP6JTQaW0kNkwPJIP/view?usp=sharing)
 : **zyBooks**{: .label .label-dark-blue} [Topic 12 - HTML](#)
   : **Due**{: .label .label-red} 
 : **PrairieLearn**{: .label .label-dark-blue}  [Post Reading 12](#)
