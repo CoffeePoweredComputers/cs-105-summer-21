@@ -98,6 +98,153 @@
   \end{itemize}
 \end{frame}
 
+\section{Mini Review}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Functions} 
+  \vfill
+  How many values will this function return if foo is called and bar is of type string?
+  \begin{lstlisting}[language=Python, autogobble]
+  def foo(bar):
+    if type(foo) == str:
+      return "lion"
+    return "cheetah"
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item 0
+    \item 1
+    \item 2
+    \item Another number
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: List Copying} 
+  How many list objects exist after this code executes?
+  \vfill
+  \begin{lstlisting}[language=Python, autogobble]
+  w = [1, 2, 3, 4]
+  x = w
+  y = x[:]
+  z = y[0]
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item 0
+    \item 1
+    \item 2
+    \item 3
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Boolean} 
+  What type does the following function return?
+  \vfill
+  \begin{lstlisting}[language=Python, autogobble]
+  def qux(baz):
+    return baz[0] == 'folded'
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item list
+    \item integer
+    \item boolean
+    \item string
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Sorting} 
+  What is the value of \lstinline|z| after this code has executed?
+  \vfill
+  \begin{lstlisting}[language=Python, autogobble]
+  x = [9, 12, 13, 4, 8, 13, 19, 6]
+  z = x.sort()[0]
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item 0
+    \item 4
+    \item 19
+    \item Error 
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Sorting} 
+  \begin{itemize}
+    \item \lstinline|list.sort()| \textrightarrow\ Updates the \textit{original} list in place and returns \lstinline|None|.
+    \item \lstinline|sorted()| Doesn't modify the original list. Returns a \textit{copy} of the list that is sorted.
+  \end{itemize}
+\end{frame}
+
+\section{Common Errors in EiPE Questions}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Code Reading Error Types} 
+  \begin{minipage}{0.265\textwidth}
+    \textbf{Error 1}
+    \begin{lstlisting}[language=Python, autogobble]
+      def f(x, y):
+        z = 0
+        for val in x:
+          if val==y:
+            z += 1
+        return z
+    \end{lstlisting}
+    \vfill
+  \end{minipage}
+  \begin{minipage}{0.3\textwidth}
+    \textbf{Error 2}
+    \begin{lstlisting}[language=Python, autogobble]
+    # x is a string
+    # y/z are single character strings
+    def f(x, y, z):
+      k = x.find(y)
+      y = x.find(z)
+      return x[k+1: j]
+    \end{lstlisting}
+    \vfill
+  \end{minipage}
+  \begin{minipage}{0.415\textwidth}
+    \textbf{Error 3}
+    \begin{lstlisting}[language=Python, autogobble]
+    def f(x):
+      for i in range(len(x)):
+        if x[i] % 2 == 0:
+          x[i] = 2 * x[i]
+    \end{lstlisting}
+    \vfill
+  \end{minipage}
+  \vfill
+  \begin{enumerate}[A]
+    \item \textbf{Error 1 - Too Low Level: } for every value in x, add 1 to z if that value is equal to y,, then return z.
+    \item \textbf{Error 2 - Type Mismatch: } returns the slice of a string from index y, incremented by 1, until, but not including index z.
+    \item \textbf{Error 3 - Ambiguity/Imprecision: } Double the even indexes in list x
+  \end{enumerate}
+\end{frame}
+
+
 \section{Dictionaries}
 
 %
@@ -182,7 +329,7 @@
 \begin{frame}[fragile]
   \frametitle{Poll Question: Function Parameters}
   What is the value of \lstinline|result| after the following code is run?
-  \begin{lstlisting}
+  \begin{lstlisting}[language=Python, autogobble]
     def arithmetic(x = 2, y = 3, z = 4):
       return x * y * z
     result = arithmetic(1, z=5)
