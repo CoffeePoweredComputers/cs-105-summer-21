@@ -1,0 +1,501 @@
+\documentclass{beamer}
+
+\usepackage{graphicx}
+\usepackage{textpos}
+\usepackage{listings}
+\usepackage{lstautogobble}
+
+\usetheme{Madrid}
+\useoutertheme{miniframes} % Alternatively: miniframes, infolines, split
+
+% Setup the university's color pallette
+\definecolor{UIUCorange}{RGB}{19, 41, 75} % UBC Blue (primary)
+\definecolor{UIUCblue}{RGB}{232, 74, 39} % UBC Grey (secondary)
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{python}{
+  backgroundcolor=\color{backcolour},   
+  commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  belowskip=-0.5em,
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2,
+  firstnumber=1
+}
+
+\lstset{style=python}
+
+\AtBeginSection[]{
+    \begin{frame}
+        \vfill
+        \centering
+        \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+            \usebeamerfont{title}\insertsectionhead\par%
+        \end{beamercolorbox}
+        \vfill
+    \end{frame}
+}
+% Setup the university's color pallette
+\definecolor{UIUCorange}{RGB}{19, 41, 75} % UBC Blue (primary)
+\definecolor{UIUCblue}{RGB}{232, 74, 39} % UBC Grey (secondary)
+
+
+\setbeamercolor{palette primary}{bg=UIUCorange,fg=white}
+\setbeamercolor{palette secondary}{bg=UIUCblue,fg=white}
+\setbeamercolor{palette tertiary}{bg=UIUCblue,fg=white}
+\setbeamercolor{palette quaternary}{bg=UIUCblue,fg=white}
+\setbeamercolor{structure}{fg=UIUCorange} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=UIUCblue} % TOC sections
+
+\setbeamercolor{subsection in head/foot}{bg=UIUCorange,fg=UIUCblue}
+\setbeamercolor{subsection in head/foot}{bg=UIUCorange,fg=UIUCblue}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+%Information to be included in the title page:
+\title{\textbf{Review Lecture}}
+\author{\textbf{David H Smith IV}}
+\institute[\textbf{UIUC}]{\textbf{University of Illinois Urbana-Champaign}}
+\date{\textbf{Mon, Aug 02 2021}}
+
+\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true]
+\addtobeamertemplate{title page}{\vspace{3\baselineskip}}{}
+\addtobeamertemplate{title page}{
+  \begin{textblock*}{\paperwidth}(-1.0em, -1.2em)
+    \includegraphics[width=\paperwidth, height=\paperheight]{imgs/uiuc.png}
+  \end{textblock*} 
+}{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\section{Reminders}
+
+%
+% Slide 1
+%
+\begin{frame}
+  \frametitle{Reminders}
+  \begin{itemize}
+    \item Practice final is up and attempting it is the final homework (250 pts).
+    \item The final ``Lecture'' is going to be an office hours where you can swing by and attempt the practice final.
+    \item The final is this Saturday at 1pm so please register for it on the scheduler.
+    \item I'll be available all week for questions, even outside of the usual office hours, so feel free to ping me on Discord.
+    \item Please review the gradebook to make sure everything looks correct.
+    \item \textbf{Please be sure to fill out the ICES forms if you haven't already.}
+  \end{itemize}
+\end{frame}
+
+\section{Patterns}
+
+\begin{frame}
+  \frametitle{Patterns of Interest}
+  \begin{itemize}
+    \item Counting pattern
+    \item Sum/Total Pattern
+    \item Computing a Sum/Total Over Specific Elements
+    \item Finding single item in collection
+    \item Finding best in collection
+    \item Filtering a collection
+    \item Histogram
+  \end{itemize}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Counting Pattern}
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def count(collection):
+    counter = 0
+    for item in collection:
+      if <item meets condition>:
+        counter += 1
+    return counter
+  \end{lstlisting}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Computing a Sum/Total}
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def sum(collection):
+    total = 0
+    for item in collection:
+      total += item
+    return total
+  \end{lstlisting}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Computing a Sum/Total Over Specific Elements}
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def sum(collection):
+    total = 0
+    for item in collection:
+      if <condition>:
+        total += item
+    return total
+  \end{lstlisting}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Dictionaries: Computing a Histogram}
+  Creating a count map of items in a collection is a common dictionary pattern:
+  \begin{lstlisting}[language=Python, autogobble]
+  def get_item_counts(some_list):
+    counts = {}
+    for item in some_list:
+      if item not in counts:
+        counts[item] = 1
+      else:
+        counts[item] += 1
+  \end{lstlisting}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Finding (single thing) in a Collection}
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def find_thing(collection):
+    for thing in collection:
+      if <thing meets condition>:
+        return thing
+  \end{lstlisting}
+  \vfill
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def find_thing(collection):
+    found = None
+    for thing in collection:
+      if <thing meets condition>:
+        found = thing
+        break
+    return found
+  \end{lstlisting}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Finding best in collection}
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def find_best(collection):
+    currentbest = ??
+    for thing in collection:
+      if <thing is better than current best>:
+        currentbest = thing
+    return currentbest 
+  \end{lstlisting}
+  \vfill
+  \begin{itemize}
+    \item If we're searching over a list and we want to return the largest or smaller number: \lstinline|currentbest = stufflist[0]| \pause
+    \item If we're searching over a list of strings and we want to return the longest string: \lstinline|currentbest = stufflist[0]| or \lstinline|currentbest = ""| \pause
+    \item If you know the list contains only non-negative integers: \lstinline|currentbest = -1|
+  \end{itemize}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Filtering a collection}
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def filter(collection):
+    new_list = []
+
+    for thing in collection:
+      if <thing meets criteria>:
+        newlist.append(thing)
+
+    return new_list
+  \end{lstlisting}
+\end{frame}
+
+\section{General Review: Common Points of Error}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Questions: Functions}
+  How many functions will the function call \lstinline|count_letters\("Hello, 105!"\)| iterate?
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def count_letters(s):
+    count = 0
+    for c in s:
+      count += 1
+      return count 
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item 0
+    \item 1
+    \item 10
+    \item 11
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Find and Slicing}
+  What does the following code produce?
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def foo(x):
+    f = x.find(',')
+    s = x.find(',', s + 1)
+    return x[f:(s + 1)]
+  foo("This, small sentence, is a test.")
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item Error on Line 2 
+    \item Error on line 3 
+    \item Error on line 4
+    \item `, small sentence,' 
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Find and Slicing}
+  Which of these lines of code need to be used to fix it such that it produces the output \lstinline|, small sentence,|?
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def foo(x):
+    f = x.find(',')
+    s = x.find(',', s + 1)
+    return x[f:(s + 1)]
+  foo("This, small sentence, is a test.")
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item 3: \lstinline|s = x.find(',', s + 1)|
+    \item 3: \lstinline|s = x.find(',', f)|
+    \item 3: \lstinline|s = x.find(',', f + 1)|
+    \item 3: \lstinline|s = x.find(',', f - 1)|
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Functions}
+  What does the following function produce if called with \lstinline|foo(["apples", "bananas"])|?
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  def foo(str_list):
+    count = 0
+    for s in str_list
+      for c in s:
+        if c == 'a':
+          count += 1
+  return count
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item None
+    \item Error
+    \item 2
+    \item 4
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Filtering a collection}
+  What is the value of new\_list after running the following code?
+  \begin{lstlisting}[language=Python, autogobble][language=Python, autogobble]
+  x = ["This", "Is", "A", "Test"]
+  new_list = []
+  for i in x:
+    if i < 2:
+      new_list.append(i)
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item Error
+    \item \lstinline|["Is", "A"]|
+    \item \lstinline|["A"]|
+    \item \lstinline|[]|
+  \end{enumerate}
+\end{frame}
+
+\section{Files}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Files}
+  Which of the following reads all the contents of a file into a list of strings?
+  \vfill
+  \begin{enumerate}[A]
+    \item readlines
+    \item readall
+    \item read
+    \item readline
+  \end{enumerate}
+\end{frame}
+
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Read Characters}
+  Given a variable named \lstinline|file_object| that contains a file object which of the following will read the next 15 character into a variable named \lstinline|title|.
+  \vfill
+  \begin{enumerate}[A]
+    \item \lstinline| title = file_object.read(15)|
+    \item \lstinline| title = file_object.read(14)|
+    \item \lstinline| title = file_object.reads(15)|
+    \item \lstinline| title = read(file_object, 15)|
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Reading from Files}
+  Method 1:
+  \begin{lstlisting}[language=Python, autogobble]
+  file_object = open('filename')
+  lines = file_object.readlines()
+  for line in lines:
+    print(line)
+  file_object.close()
+  \end{lstlisting}
+  \vfill
+  Method 2:
+  \begin{lstlisting}[language=Python, autogobble]
+  with open('filename') as inf:
+    lines = inf.readlines()
+    for line in lines:
+      print(line)
+    #automatic file close
+  \end{lstlisting}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Writing to Files}
+  Method 1:
+  \begin{lstlisting}[language=Python, autogobble]
+  file_object = open('filename', 'w')
+  file_object.write('thing to write')
+  file_objet.close()  #automatic at program end
+  file_object.flush() #optional
+  \end{lstlisting}
+  \vfill
+  Method 2:
+  \begin{lstlisting}[language=Python, autogobble]
+  with open('filename', 'w') as outf:
+    outf.write('thing to write')
+    #automatic file close
+  \end{lstlisting}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Patterns and Files}
+  \begin{minipage}{0.38\textwidth}
+    Usual Sum/Total:
+    \begin{lstlisting}[language=Python, autogobble]
+    def foo(some_list):
+      total = 0
+      for item in some_list
+        total += item
+      return total
+    \end{lstlisting}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.58\textwidth}
+    Sum/Total Pattern w/ File:
+    \begin{lstlisting}[language=Python, autogobble]
+    def foo(filename):
+      file_object = open(filename)
+      lines = file_object.readlines()
+      total = 0
+      for line in lines:
+        total += int(line)
+      return total
+    \end{lstlisting}
+  \end{minipage}
+\end{frame}
+
+\section{More Review}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Poll Question: Booleans}
+  What is the correct boolean expression for if we want to determine if the list \lstinline|x| only if it contains either elements \lstinline|y| \lstinline|z|.
+  \begin{enumerate}[A]
+    \item \lstinline|y or z in x|
+    \item \lstinline|x in y or x in z|
+    \item \lstinline|y in x or z in x|
+    \item \lstinline|y in x and z in x|
+  \end{enumerate}
+\end{frame}
+
+%
+% Slide 2
+%
+\begin{frame}[fragile]
+  \frametitle{Filtering a collection}
+  Which function call will produce the output \lstinline|`hj'|.
+  \begin{lstlisting}[language=Python, autogobble]
+  def foo(x, y, z):
+      return x[y: z]
+  \end{lstlisting}
+  \vfill
+  \begin{enumerate}[A]
+    \item \lstinline|foo(`asdfghjkl', -4, -2)|
+    \item \lstinline|foo(`asdfghjkl', -3, -2)|
+    \item \lstinline|foo(`asdfghjkl', -3, -1)|
+    \item \lstinline|foo(`asdfghjkl', -5, -2)|
+  \end{enumerate}
+\end{frame}
+
+\end{document}
