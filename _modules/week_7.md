@@ -18,7 +18,7 @@ July 27
 
 July 28
 : **Lecture 12**{: .label .label-orange} Dictionaries & Advanced Functions
-  : [Video](#), [Slides](#), [Instructor Notes](#)
+  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-12/main.pdf %})
 
 July 29
 : **Quiz: Topic 9 & 10**{: .label .label-dark-blue}  
