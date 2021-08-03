@@ -7,8 +7,8 @@ Aug 2
   : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-12/main.pdf %})
 
 Aug 3
-: **Lab 8**{: .label .label-light-blue}[Review Lab](#)
-  : [Colab Document](#)
+: **Lab 8**{: .label .label-light-blue}Review Lab
+  : [Colab Document](https://drive.google.com/file/d/1uRKPAMwPG3SYfifYm0iq4F0mZ7mFxQSh/view?usp=sharing)
 
 Aug 4
 : **No Lecture**{: .label .label-orange} Review Week
