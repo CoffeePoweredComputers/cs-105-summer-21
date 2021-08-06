@@ -4,7 +4,7 @@ navtitle: Week 8 - Practice for Final and Closing Thoughts
 
 Aug 2
 : **Lecture 13**{: .label .label-orange} Review Week
-  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-12/main.pdf %})
+  : [Video](#), [Slides]({{ site.baseurl }}{% link assets/slides/lecture-14/main.pdf %})
 
 Aug 3
 : **Lab 8**{: .label .label-light-blue}Review Lab
